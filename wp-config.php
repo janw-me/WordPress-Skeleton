@@ -6,13 +6,13 @@ if ( $enviroment == 'development' ) {
 	define( 'DB_NAME', '%%' );
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', '' );
+	define( 'DB_HOST', 'localhost' );
 	// ftp
 	define( 'FTP_USER', '%%' );
 	define( 'FTP_PASS', '%%' );
 	define( 'FTP_HOST', '%%' );
 	define( 'FTP_SSL', false );
 	// Url
-	define( 'DB_HOST', 'localhost' );
 	define( 'WP_HOME', '%%/' );
 	// Debug
 	define( 'WP_DEBUG', true );
@@ -21,13 +21,13 @@ if ( $enviroment == 'development' ) {
 	define( 'DB_NAME', '%%' );
 	define( 'DB_USER', '%%' );
 	define( 'DB_PASSWORD', '%%' );
+	define( 'DB_HOST', 'localhost' );
 	// ftp
 	define( 'FTP_USER', '%%' );
 	define( 'FTP_PASS', '%%' );
 	define( 'FTP_HOST', '%%' );
 	define( 'FTP_SSL', false );
 	// Url
-	define( 'DB_HOST', 'localhost' );
 	define( 'WP_HOME', '%%/' );
 	// Debug
 	define( 'WP_DEBUG', false );
