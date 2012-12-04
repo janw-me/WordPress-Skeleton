@@ -1,5 +1,5 @@
 <?php
-$enviroment = getenv( 'APP_ENV' );
+$enviroment = getenv( 'APP_ENV' ); // set in the Vhost with: SetEnv APP_ENV development
 
 if ( $enviroment == 'development' ) {
 	// Database
@@ -13,7 +13,7 @@ if ( $enviroment == 'development' ) {
 	define( 'FTP_HOST', '%%' );
 	define( 'FTP_SSL', false );
 	// Url
-	define( 'WP_HOME', '%%/' );
+	define( 'WP_HOME', '%%' ); // example http://example.com  (no trailing slash)
 	// Debug
 	define( 'WP_DEBUG', true );
 } else { //live
@@ -28,7 +28,7 @@ if ( $enviroment == 'development' ) {
 	define( 'FTP_HOST', '%%' );
 	define( 'FTP_SSL', false );
 	// Url
-	define( 'WP_HOME', '%%/' );
+	define( 'WP_HOME', '%%' ); // example http://example.com  (no trailing slash)
 	// Debug
 	define( 'WP_DEBUG', false );
 }
@@ -37,7 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 $table_prefix = 'wp_'; // please change
 // URL and dirs
-define( 'WP_SITEURL', WP_HOME . 'wp/' );
+define( 'WP_SITEURL', WP_HOME . '/wp' );
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', WP_HOME . '/content' );
 
@@ -51,8 +51,7 @@ define( 'SECURE_AUTH_SALT', '%%' );
 define( 'LOGGED_IN_SALT', '%%' );
 define( 'NONCE_SALT', '%%' );
 
-//define('WPLANG', 'nl_NL'); // NL
-define( 'WPLANG', '' ); // English
+define( 'WPLANG', '' ); // default EN for Dutch: nl_NL
 // Auto save and Revisions
 define( 'AUTOSAVE_INTERVAL', 300 ); // seconds
 define( 'WP_POST_REVISIONS', 10 );
