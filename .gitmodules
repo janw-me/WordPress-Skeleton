@@ -1,6 +1,3 @@
 [submodule "wp"]
 	path = wp
 	url = git://github.com/WordPress/WordPress.git
-[submodule "content/mu-plugins/wordpress-seo"]
-	path = content/mu-plugins/wordpress-seo
-	url = git://github.com/jdevalk/wordpress-seo.git
