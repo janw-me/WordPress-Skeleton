@@ -3,17 +3,17 @@ $enviroment = getenv( 'APP_ENV' ); // set in the Vhost with: SetEnv APP_ENV deve
 
 if ( $enviroment == 'development' ) {
 	// Database
-	define( 'DB_NAME', '%%' );
-	define( 'DB_USER', 'root' );
-	define( 'DB_PASSWORD', '' );
+	define( 'DB_NAME', 'kijken_codeles' );
+	define( 'DB_USER', 'kijken_codeless' );
+	define( 'DB_PASSWORD', 'sa5Voo6Rox!ooD@u' );
 	define( 'DB_HOST', 'localhost' );
 	// ftp
-	define( 'FTP_USER', '%%' );
-	define( 'FTP_PASS', '%%' );
-	define( 'FTP_HOST', '%%' );
-	define( 'FTP_SSL', false );
+	//define( 'FTP_USER', '%%' );
+	//define( 'FTP_PASS', '%%' );
+	//define( 'FTP_HOST', '%%' );
+	//define( 'FTP_SSL', false );
 	// Url
-	define( 'WP_HOME', '%%' ); // example http://example.com  (no trailing slash)
+	define( 'WP_HOME', 'http://codeless.meekijken.net' ); // example http://example.com  (no trailing slash)
 	// Debug
 	define( 'WP_DEBUG', true );
 } else { //live
