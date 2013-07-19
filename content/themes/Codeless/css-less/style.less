@@ -1,0 +1,364 @@
+/*====================================================================================================================*/
+/*== TABLE OF CONTENTS                                                                                             ==*/
+/*===================================================================================================================/
+
+- Variables                                                                                        $vars
+- Functions                                                                                        $fnc
+- HTML reset                                                                                       $reset
+- html                                                                                             $html
+- div#container                                                                                    $cont
+  - header#page-header                                                                             $header
+    - nav.header-menu                                                                              $hdrNav
+  - div#page-main                                                                                  $mainPage
+    - div#content                                                                                  $content
+      - div.post / article.entry                                                                   $artclEntry
+		    - div.gallery                                                                              $gallery
+    - div.widget-sidebar                                                                           $sidebar
+  - footer#page-footer                                                                             $footer
+- form#searchform / div.search-form                                                                $searchform
+- page-specific                                                                                    $pages
+  - search                                                                                         $pageSearch
+	- 404 page                                                                                       $page404
+
+/**/
+
+/*====================================================================================================================*/
+/*== Variables                                                                                     $vars           ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== Functions                                                                                     $fnc            ==*/
+/*==================================================================================================================*/
+.font-size(@size-px) {
+	@size-rem: (@size-px/@html-font-size-px);
+	font-size: ~"@{size-px}px";
+	font-size: ~"@{size-rem}rem";
+}
+.font-size-percentage(@size-percent: 100) {
+	@size-px: @html-font-size-px * (@size-percent/100);
+	@size-rem: @size-percent / 100;
+	font-size: ~"@{size-px}px";
+	font-size: ~"@{size-rem}rem";
+}
+.html-font-size() {
+	@html-em: @html-font-size-px/16;
+	font-size: ~"@{html-em}em";
+}
+.box-sizing( @box: border-box) {
+	-webkit-box-sizing: @box;
+	-moz-box-sizing: @box;
+	box-sizing: @box;
+}
+/*====================================================================================================================*/
+/*== html                                                                                          $html           ==*/
+/*==================================================================================================================*/
+body{
+	color: #fff;
+	background: rgb(0,80,145); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNTA5MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNDMxNWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  rgba(0,80,145,1) 0%, rgba(4,49,92,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,80,145,1)), color-stop(100%,rgba(4,49,92,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,80,145,1) 0%,rgba(4,49,92,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,80,145,1) 0%,rgba(4,49,92,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,80,145,1) 0%,rgba(4,49,92,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,80,145,1) 0%,rgba(4,49,92,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005091', endColorstr='#04315c',GradientType=1 ); /* IE6-8 */
+}
+
+body.home{
+	background: #525252;
+}
+
+body h2{
+	font: 200 24px/24px 'Lato', sans-serif;
+	color: #fff;
+	text-transform: none;
+}
+
+.primary_content_wrap{
+	background: none;
+	margin: 24px 0 66px 0;
+	padding: 0;
+}
+
+.last-child{
+	border: 0;
+}
+
+.img-box{
+	border: 0;
+	padding: 0;
+	background: none;
+}
+/*====================================================================================================================*/
+/*== div#container                                                                                 $cont           ==*/
+/*==================================================================================================================*/
+.container_12{
+	width: 966px;
+}
+
+.grid_12{
+	margin: 0;
+}
+/*====================================================================================================================*/
+/*== header#page-header                                                                            $header         ==*/
+/*==================================================================================================================*/
+#header{
+	background: none;
+}
+/*====================================================================================================================*/
+/*== header#page-header / nav.header-menu                                                          $hdrNav         ==*/
+/*==================================================================================================================*/
+nav.primary{
+	border: 0;
+}
+
+.sf-menu > li{
+	background: none;
+}
+
+.sf-menu > li:hover{
+	background: none !important;
+}
+
+.sf-menu > li > a{
+	background: #009fdb;
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 15px;
+	color: #fff;
+	padding: 27.5px 0;
+	margin-right: 6px;
+}
+
+.sf-menu > li.sfHover > a, 
+.sf-menu > li > a:hover,
+.sf-menu > li.current-menu-item > a{
+	background: #fff;
+	color: #009fdb;
+	font-weight: 400;
+}
+
+.sf-menu ul{
+	background: #194d78;
+	padding: 20px 0 25px 0;
+	top: 100% !important;
+}
+
+.sf-menu ul li a{
+	text-align: left; 
+	.font-size(14);
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	line-height: 30px;
+	color: #fff;
+	text-transform: none;
+	margin: 0 15px;
+}
+
+.sf-menu ul li:hover,
+.sf-menu ul li a:hover{
+	background: #0b79b0;
+}
+/*====================================================================================================================*/
+/*== div#page-main                                                                                 $mainPage       ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== div#page-main / div#content                                                                   $content        ==*/
+/*==================================================================================================================*/
+body #content{
+	width: 596px;
+	margin: 0;
+	line-height: 24px;
+}
+/*====================================================================================================================*/
+/*== div#page-main / div#content / div.post / article.entry                                        $artclEntry     ==*/
+/*==================================================================================================================*/
+body #main{
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	line-height: 15px;
+	color: #fff;
+}
+
+article.post h6 a{
+	.font-size(24);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+body .entry-header.post-meta-true{
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.post-holder{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e7e4e3;
+	margin-bottom: 35px;
+}
+
+.post-holder.last-child{
+	border: 0;
+}
+
+.post-content .excerpt p{
+	font-weight: 400;
+}
+/*====================================================================================================================*/
+/*== div#page-main / div#content / div.post / article.entry /div.gallery                           $gallery        ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== div#page-main / div.widget-sidebar                                                            $sidebar        ==*/
+/*==================================================================================================================*/
+#sidebar{
+	width: 320px;
+	margin: 0 0 0 50px;
+}
+
+#sidebar .widget{
+	width: 288px;
+	background: #7a7a7a;
+	padding: 16px;
+	margin: 17px 0 0 0;
+}
+/*====================================================================================================================*/
+/*== footer#page-footer                                                                            $footer         ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== form#searchform / div.search-form                                                             $searchform     ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== PAGE-SPECIFIC                                                                                 $pages          ==*/
+/*== Markup for specific pages                                                                                    ==*/
+/*=================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== #page-main / div#content-search                                                              $pageSearch      ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== textarea / button / input                                                                    $forms           ==*/
+/*==================================================================================================================*/
+#searchform .submit,
+input[type="submit"], 
+input[type="reset"],
+.button{
+	background: #009fdb;
+	border: 1px solid #009fdb;
+	border-radius: 0;
+	.font-size(12);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 12px;
+	color: #fff !important;
+	text-transform: uppercase;
+	padding: 9px 72px 9px 10px;
+	text-align: left;
+}
+
+#searchform .submit{
+	width: auto;
+}
+
+a.read-more{
+	.font-size(12);
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	line-height: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	background: url(@{themeurl}/images/read-more.png) no-repeat left center;
+	padding-left: 22px;
+}
+
+input[type="text"], 
+textarea{
+	padding: 6px 9px 6px;
+	background: #7a7a7a;
+	color: #fff;
+	border: 1px solid #009fdb;
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 15px;
+}
+
+#sidebar #searchform input[type=text]{
+	margin: 0;
+}
+/*====================================================================================================================*/
+/*== .gform_wrapper                                                                                 $gform         ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== #page-main / div#content-404                                                                 $page404         ==*/
+/*==================================================================================================================*/
+
+/*====================================================================================================================*/
+/*== @media                                                                			   			  $media           ==*/
+/*==================================================================================================================*/
+@media only screen and (max-width: 959px){
+	.container_12{
+		width: 768px;
+	}
+	
+	body #content{
+		width: 556px;
+	}
+	
+	#sidebar{
+		width: 172px;
+		margin: 0 0 0 40px;
+	}
+	
+	#sidebar .widget{
+		padding: 12px;
+		width: 148px;
+	}
+	
+	#sidebar #searchform input[type=text]{
+		width: 130px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.container_12{
+		width: 420px;
+	}
+	
+	body #content{
+		width: 100%;
+	}
+	
+	#sidebar{
+		width: 100%;
+		margin: 0;
+	}
+	
+	#sidebar .widget{
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	.container_12{
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	.container_12{
+		width: 100%;
+	}
+}
