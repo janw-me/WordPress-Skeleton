@@ -1,0 +1,125 @@
+/*-- #Tablet (Portrait) ------------------------------------------------- */
+/* Note: Design for a width of 768px */
+@media only screen and (max-width: 1024px){
+	.body{min-width:960;}
+	#main {width:960px;}
+}
+@media only screen and (max-width: 959px) {
+	#main {width:768px;}
+	
+	.post-content.extra-wrap, blockquote .extra-wrap, .box .extra-wrap{overflow:visible;}
+	
+	/*Images*/
+	.logo img{width:auto;}
+	.img-box{display:block;}
+	
+	.featured-thumbnail.fleft, .featured-thumbnail.fright,
+	.recent-posts.news .featured-thumbnail{max-width:45%;}
+	
+	/*Indents*/
+	.dropcap{margin-top:0;}
+	.home .featured-thumbnail.fleft{margin-bottom:5px;}
+	h2, #footer h2, p, .recent-posts.news{margin-bottom:15px;}
+	#top-widgets, .home .primary_content_wrap .indent-bottom, .widget{margin-bottom:30px;}
+	.sm_hr {margin:20px 0;}
+	#top-widgets div[id^="meta"] ul li {margin-right:8px;}
+	
+	.recent-posts.news li span.meta, .dropcap ~ .extra-wrap, #right-footer-area .social-networks {padding-top:0;}
+	.indent-right{padding-right:0;}
+	#footer, .primary_content_wrap{padding:35px 0;}
+	#content.left .indent-right{padding-left:0;}
+	
+	/*------------------------------------------------------------------*/
+	
+	.sf-menu > li{width:125px;}
+	.sf-menu > li.last-child{width:123px;}
+		.sf-menu > li > a{padding:35px 0;}
+			.sf-menu li:hover ul, .sf-menu li.sfHover ul {top: 89px;}
+	
+	/*-- Home ----------------------------------------------------------*/
+	.content-area{width:249px;}
+	#content-area2{width:248px;}
+		.content-area h2{font-size:26px; padding:20px 20px 17px; margin-bottom:20px;}
+	.content-area h6{margin-bottom:10px;}
+		.content-area li{margin-bottom:8px;}
+	.content-area .featured-thumbnail.fleft{max-width:45%;}
+		.content-area .img-box{display:block;}
+			.content-area .featured-thumbnail.fleft img{width:100%;}
+
+	.content-area .box-text{padding:0 20px 42px; margin-bottom:20px;}
+		#content-area1 .box-text{padding:0 20px 20px;}
+		#content-area2 .box-text{padding:0 20px 54px;}
+	.content-area .box-button{padding:0 20px 20px;}
+	
+	/*-- Portfolio -----------------------------------------------------*/
+	#gallery .portfolio li {width:236px;}
+		#gallery .portfolio li a.image-wrap {height:143px;}
+	#gallery.one_column .portfolio .featured-thumbnail{max-width:45%;}
+		#gallery.one_column .portfolio li h6{margin-bottom:0;}
+		#gallery.one_column .portfolio li a.image-wrap {height:210px; width:325px;}
+	#gallery.two_columns .portfolio li {width:364px;}
+		#gallery.two_columns .portfolio li a.image-wrap {height:226px;}
+	#gallery.four_columns .portfolio li {width:172px;}
+		#gallery.four_columns .portfolio li a.image-wrap {height:102px;}
+	.zoom-icon{background-size:auto 80%;}
+	/* Gallery post format */
+	.gallery_post .g_item {width:544px;}
+	.slides_container_slideshow {height:328px; width:544px;}
+	/* Video */
+	.single-audio-holder .audiojs .scrubber {width:380px;}
+	
+	/*-- 404 -----------------------------------------------------------*/
+	.error404-num {font-size:235px; line-height: 235px;}
+	
+	/*-- Blog ----------------------------------------------------------*/
+	/* Page Navigaton */
+	.pagenavi .pages span, .pagenavi .pages a {margin: 0 10px 0 0;}
+	.pagenavi .first-page{margin-right:10px;}
+	.pagenavi .prev-page{margin-right:15px;}
+	.pagenavi .next-page{margin-left:10px;}
+	.pagenavi .last-page{margin-left:10px;}
+	/* Comments */
+	.commentlist ul.children {padding: 0 0 0 20px;}
+	
+	/*-- Widgets -------------------------------------------------------*/
+	/* Flickr widget */
+	.flickrImages a {width:60px; height:60px;}
+		/* SlidesJS */
+	.slides_container {width:224px;}
+	/* RSS */
+	.rsswidget img, .social-networks img{width:auto;}
+	/*Post Cycle, Carousel*/
+	.post_list li .img-box, .es-carousel .img-box{display:inline-block;}
+	
+	
+	/*-- Shortcodes ---------------------------------------------------*/
+	/* Address */
+	.address dt {float:none; width:auto; margin-right:0; margin-bottom:20px;}
+	.address dd {float:none; width:auto;}
+	/* Recent posts*/
+	.recent-posts.team li {width: 172px;}
+	/* Spacer */
+	.spacer{height:30px;}
+	
+	/*-- Forms ---------------------------------------------------------*/
+	.wpcf7-form .submit-wrap img{width:auto;}
+	.wpcf7-form p.field input[type="text"], .wpcf7-form textarea {width:282px;}
+	
+	
+	/*-- Footer ---------------------------------------------------------*/
+	/* Footer widget */
+	#footer-widgets {width:556px;}
+	/* Copyright */
+	#copyright {width:172px;}
+	
+	
+	#back-top {display:none !important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#right-footer-area .social-networks.icons, #sidebar .social-networks.icons {padding-right:40px;}
+		#right-footer-area .social-networks.icons li, #sidebar .social-networks.icons li{margin-bottom:3px;}
+	#sidebar #searchform input[type=text]{display:block; margin:0 0 5px; width:154px; }
+	.banners-holder li{max-width:44%;}
+}
+@media only screen and (min-width: 480px) and (max-width: 959px) {}

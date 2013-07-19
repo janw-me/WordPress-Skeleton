@@ -1,0 +1,48 @@
+/*-- #Mobile (Portrait) ------------------------------------------------------- */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 479px) {
+	#main {width:320px;}
+	
+	.featured-thumbnail.fleft, .featured-thumbnail.right{max-width:none; float:none; margin:0 0 15px;}
+		.featured-thumbnail.fleft img, .featured-thumbnail.right img{width:100%;}
+	
+	/*-- Home ---- -----------------------------------------------------*/
+	.content-area .featured-thumbnail.fleft{float:left; margin-right:20px;}
+	
+	/*-- Portfolio -----------------------------------------------------*/
+	#gallery .portfolio li {width:100%; float:none; margin-right:0;}
+		#gallery .portfolio li.nomargin{margin-right:0 !important;}
+		#gallery .portfolio li a.image-wrap {height:184px;}
+	#gallery.one_column .portfolio li a.image-wrap {height:186px; width:288px;}
+	#gallery.two_columns .portfolio li a.image-wrap {height:185px;}
+	#gallery.four_columns .portfolio li {width:140px; float:left; margin-right:20px;}
+		#gallery.four_columns .portfolio li a.image-wrap {height:81px;}
+	/* Gallery post format */
+	.gallery_post .g_item {width:288px;}
+	.slides_container_slideshow {height:174px; width:288px;}
+	.grid_gallery .gallery_item{width:130px;}
+	/* Audio Single */
+	.single-audio-holder .audiojs .scrubber {width:130px;}
+	
+	/*-- 404 -----------------------------------------------------------*/
+	.error404-num {font-size:170px; line-height: 170px;}
+	
+	/*-- Blog ----------------------------------------------------------*/
+	/* Meta information for post */
+	.post-meta {padding-bottom:10px;}
+	.post-meta time{top:-6px;}
+	.post-meta .fleft, .post-meta .fright{float:none;}
+
+	
+	/*-- Widgets --------------------------------------------------------------*/
+	.latestpost .featured-thumbnail.fleft{float:left; margin:0 12px 0 0;}
+	
+	/*-- Shortcodes -----------------------------------------------------------*/
+	.popular_posts .featured-thumbnail.fleft, .box .featured-thumbnail.fleft, .testimonials .featured-thumbnail.fleft {float:left; margin:0 20px 10px 0; max-width:45%;}
+	.recent-posts.team li {width: 140px;}
+	.testimonials blockquote .extra-wrap{overflow:visible;}
+	
+	/*-- Forms ----------------------------------------------------------*/
+	#commentform input[tupe="text"], #commentform textarea, .wpcf7-form p.field input[type="text"], .wpcf7-form textarea  {width:282px;}
+}
