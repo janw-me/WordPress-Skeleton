@@ -15,7 +15,7 @@ if ( $enviroment == 'development' ) {
 	// Url
 	define( 'WP_HOME', 'http://codeless.meekijken.net' ); // example http://example.com  (no trailing slash)
 	// Debug
-	define( 'WP_DEBUG', true );
+	define( 'WP_DEBUG', false );
 } else { //live
 	// Database
 	define( 'DB_NAME', '%%' );
@@ -51,7 +51,7 @@ define( 'SECURE_AUTH_SALT', '%%' );
 define( 'LOGGED_IN_SALT', '%%' );
 define( 'NONCE_SALT', '%%' );
 
-define( 'WPLANG', '' ); // default EN for Dutch: nl_NL
+define( 'WPLANG', 'nl_NL' ); // default EN for Dutch: nl_NL
 // Auto save and Revisions
 define( 'AUTOSAVE_INTERVAL', 300 ); // seconds
 define( 'WP_POST_REVISIONS', 10 );
