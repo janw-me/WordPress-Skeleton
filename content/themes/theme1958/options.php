@@ -429,6 +429,33 @@ if(!function_exists('optionsframework_options')) {
 							"std" => "",
 							"type" => "text");
 		
+		
+		
+		
+		
+		
+		$options[] = array( "name" => "Algemeen",
+						"type" => "heading");
+		
+		$options['phone'] = array( "name" => "Telefoon nummer",
+							"desc" => "",
+							"id" => "telefoon",
+							"std" => "",
+							"type" => "text");
+		
+		$options['email'] = array( "name" => "E-mail adres",
+							"desc" => "",
+							"id" => "email",
+							"std" => "",
+							"type" => "text");
+							
+		$options['adres'] = array( "name" => "Adres",
+							"desc" => "",
+							"id" => "adres",
+							"std" => "",
+							"type" => "text");
+		
+		
 		return $options;
 	}
 
