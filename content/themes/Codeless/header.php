@@ -128,20 +128,6 @@
 		<header id="header">
 			<div class="container_12 clearfix">
 				<div class="grid_12">
-					<?php if( is_active_sidebar( 'left-header-area' ) || is_active_sidebar( 'right-header-area' )) { ?>
-						<div class="clearfix" id="top-widgets">
-							<div class="grid_7 alpha" id="left-header-area">
-								<?php if ( ! dynamic_sidebar( 'Left Header Area' ) ) : ?>
-									<!--Widgetized 'Left Header Area'-->
-								<?php endif; ?>
-							</div>
-							<div class="grid_5 omega clearfix" id="right-header-area">
-								<?php if ( ! dynamic_sidebar( 'Right Header Area' ) ) : ?>
-									<!--Widgetized 'Right Header Area'-->
-								<?php endif; ?>
-							</div>
-						</div>
-					<?php } ?>
 					
 					<div class="clearfix indent-bottom">
 						<div class="grid_7 alpha">
@@ -184,6 +170,28 @@
 				</div> <!--/grid_12-->
 			</div><!--/container_12-->
 		</header>
-		
+		<?php
+		if(is_front_page()):
+		$args = array(
+			'sort_order' => 'ASC',
+			'post_type' => 'service',
+			'post_status' => 'publish',
+			'posts_per_page' => 3,
+			'orderby' => 'date'
+		);
+		$r = new WP_Query($args);
+			if ($r->have_posts()) :
+			?><div class="services"><ul class="container_12"><?php
+			while ( $r->have_posts() ) : $r->the_post(); ?>
+				<li>
+					<h2><?php the_title(); ?></h2>
+					<p><?php echo get_post_meta($post->ID, 'ba_textarea_samenvatting', true); ?></p>
+					<a href="<?php the_permalink() ?>" class="read-more" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php _e('Read more', L10n); ?></a>
+				</li>
+			<?php endwhile; ?>
+		</ul></div>
+		<?php endif; ?>
+		<?php wp_reset_query(); ?>
+		<?php endif; ?>
 		<div class="primary_content_wrap clearfix">
 			<div class="container_12 ">

@@ -25,7 +25,7 @@
 /*====================================================================================================================*/
 /*== Variables                                                                                     $vars           ==*/
 /*==================================================================================================================*/
-
+@html-font-size-px: 16;
 /*====================================================================================================================*/
 /*== Functions                                                                                     $fnc            ==*/
 /*==================================================================================================================*/
@@ -105,7 +105,10 @@ body h2{
 /*== header#page-header                                                                            $header         ==*/
 /*==================================================================================================================*/
 #header{
-	background: none;
+	background: url(@{themeurl}/images/background-header.png) no-repeat center center;
+	background-size: 100% 550px;
+	padding: 0 0 24px 0;
+	height: 526px;
 }
 /*====================================================================================================================*/
 /*== header#page-header / nav.header-menu                                                          $hdrNav         ==*/
@@ -145,6 +148,7 @@ nav.primary{
 	background: #194d78;
 	padding: 20px 0 25px 0;
 	top: 100% !important;
+	width: 152px;
 }
 
 .sf-menu ul li a{
@@ -183,6 +187,7 @@ body #main{
 	font-weight: 200;
 	line-height: 15px;
 	color: #fff;
+	width: auto;
 }
 
 article.post h6 a{
@@ -209,8 +214,16 @@ body .entry-header.post-meta-true{
 	border: 0;
 }
 
+.post-content .excerpt{
+	margin-bottom: 9px;
+}
+
 .post-content .excerpt p{
-	font-weight: 400;
+	font-weight: 300;
+}
+
+.home .featured-thumbnail.fleft{
+	margin-top: 5px;
 }
 /*====================================================================================================================*/
 /*== div#page-main / div#content / div.post / article.entry /div.gallery                           $gallery        ==*/
@@ -228,12 +241,111 @@ body .entry-header.post-meta-true{
 	width: 288px;
 	background: #7a7a7a;
 	padding: 16px;
-	margin: 17px 0 0 0;
+	margin: 0 0 17px 0;
+}
+
+#sidebar .widget .featured-thumbnail{
+	float: left;
+	margin-right: 13px;
+}
+
+#sidebar .widget,
+#sidebar .widget .post_content{
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 20px;
+	color: #fff;
+}
+
+#sidebar .widget .post-title{
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	color: #fff;
+	margin-top: -8px;
+	display: block;
 }
 /*====================================================================================================================*/
 /*== footer#page-footer                                                                            $footer         ==*/
 /*==================================================================================================================*/
+#footer{
+	padding: 62px 0 0 0;
+	background: rgb(0,158,218); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWVkYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNDMxNWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  rgba(0,158,218,1) 0%, rgba(4,49,92,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,158,218,1)), color-stop(100%,rgba(4,49,92,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,158,218,1) 0%,rgba(4,49,92,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,158,218,1) 0%,rgba(4,49,92,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,158,218,1) 0%,rgba(4,49,92,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,158,218,1) 0%,rgba(4,49,92,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009eda', endColorstr='#04315c',GradientType=1 ); /* IE6-8 */
+}
 
+#footer #footer-menu{
+	margin: 0;
+	padding: 0;
+}
+
+#footer #footer-menu li.widget{
+	float: left;
+	width: 122px;
+	height: 150px;
+	padding: 0 20px 0 20px;
+	margin: 0;
+	background: none;
+	border-right: 2px solid #009fdb;
+}
+
+#footer #footer-menu li.widget:first-child{
+	padding-left: 0;
+}
+
+#footer #footer-menu li.widget h3{
+	.font-size(12);
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	line-height: 30px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+#footer #footer-menu li.widget,
+#footer #footer-menu li.widget a,
+#footer #footer-menu li.widget .textwidget{
+	.font-size(14);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 21px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer #footer-text,
+#footer #footer-text a{
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 21px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer #copyright{
+	margin: 0;
+	width: 240px;
+}
+
+#footer #copyright #footer-text{
+	margin-top: 15px;
+}
+
+#footer #copyright .logo-footer{
+	margin-top: -35px;
+	display: block;
+}
 /*====================================================================================================================*/
 /*== form#searchform / div.search-form                                                             $searchform     ==*/
 /*==================================================================================================================*/
@@ -242,7 +354,54 @@ body .entry-header.post-meta-true{
 /*== PAGE-SPECIFIC                                                                                 $pages          ==*/
 /*== Markup for specific pages                                                                                    ==*/
 /*=================================================================================================================*/
+.services{
+	background: #fff;
+}
 
+.services ul{
+	padding: 24px 0 30px 0;
+}
+
+.services ul li{
+	list-style: none;
+	margin: 0;
+	padding: 15px 21px 0 20px;
+	background: none;
+	float: left;
+	width: 279px;
+	min-height: 200px;
+	color: #58585a;
+	border-right: 2px solid #e3e3e3;
+}
+
+.services ul li.last-child{
+	border: 0;
+}
+
+.services ul li h2{
+	.font-size(24);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 32px;
+	color: #58585a;
+}
+
+.services ul li p{
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 24px;
+	color: #58585a;
+}
+
+.services ul li .read-more{
+	.font-size(12);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 12px;
+	color: #0095d2;
+	background: url(@{themeurl}/images/read-more-blue.png) no-repeat left center;
+}
 /*====================================================================================================================*/
 /*== #page-main / div#content-search                                                              $pageSearch      ==*/
 /*==================================================================================================================*/
@@ -282,7 +441,8 @@ a.read-more{
 	padding-left: 22px;
 }
 
-input[type="text"], 
+body .gform_wrapper input[type="text"], 
+body .gform_wrapper textarea,
 textarea{
 	padding: 6px 9px 6px;
 	background: #7a7a7a;
@@ -294,13 +454,83 @@ textarea{
 	line-height: 15px;
 }
 
+body .gform_wrapper textarea.textarea,
+body .gform_wrapper .top_label input.large, 
+body .gform_wrapper .top_label select.large, 
+body .gform_wrapper .top_label textarea.textarea,
+textarea{
+	width: 94.2%;
+	height: 80px;
+}
+
 #sidebar #searchform input[type=text]{
 	margin: 0;
 }
 /*====================================================================================================================*/
 /*== .gform_wrapper                                                                                 $gform         ==*/
 /*==================================================================================================================*/
+.gform_wrapper ul li.gfield{
+	background: none;
+	padding: 0;
+	margin: 0;
+}
 
+body .gform_wrapper .gform_footer input.button, 
+body .gform_wrapper .gform_footer input[type=submit]{
+	.font-size(12);
+	float: right;
+}
+
+body .gform_wrapper li.gfield.gfield_error .gfield_description,
+body .gform_wrapper .validation_error{
+	display: none;
+}
+
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required{
+	margin-bottom: 6px !important;
+	padding: 0 !important;
+	background: none;
+	border: 0;
+}
+
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container{
+	margin-top: 0 !important;
+}
+
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required input{
+	border: 1px solid #ff1a1a;
+	color: #ff3636;
+}
+
+body .gform_wrapper li.gfield.gfield_error, 
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning{
+	background: none;
+	border: 0;
+	padding: 0 !important;
+	margin: 0 0 12px 0 !important;
+}
+
+body .gform_wrapper .top_label .gfield_error{
+	width: 101%;
+}
+
+body .gform_wrapper .gform_footer{
+	margin: 0;
+	height: 32px;
+}
+
+#sidebar .gform_wrapper ul li.gfield{
+	margin-bottom: 12px;
+}
+
+#sidebar .gform_wrapper .gfield_label{
+	display: none;
+}
+
+body #sidebar .gform_wrapper input[type="text"]{
+	width: 96.2%;
+}
 /*====================================================================================================================*/
 /*== #page-main / div#content-404                                                                 $page404         ==*/
 /*==================================================================================================================*/
@@ -329,6 +559,7 @@ textarea{
 	
 	#sidebar #searchform input[type=text]{
 		width: 130px;
+		margin-bottom: 10px;
 	}
 }
 
