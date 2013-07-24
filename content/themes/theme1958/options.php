@@ -454,6 +454,18 @@ if(!function_exists('optionsframework_options')) {
 							"id" => "adres",
 							"std" => "",
 							"type" => "text");
+							
+		$options['home_header_text_title'] = array( "name" => "Home pages header text title",
+							"desc" => "",
+							"id" => "home_header_text_title",
+							"std" => "",
+							"type" => "text");
+							
+		$options['home_header_text'] = array( "name" => "Home pages header text",
+							"desc" => "",
+							"id" => "home_header_text",
+							"std" => "",
+							"type" => "textarea");
 		
 		
 		return $options;
