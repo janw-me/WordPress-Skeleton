@@ -148,13 +148,24 @@
 								<div class="tagline"><?php bloginfo('description'); ?></div>
 							</div> <!-- /logo-->
 						</div>
-						<div class="grid_5 omega">
-							<div id="widget-header" class="clearfix">
-								<?php if ( ! dynamic_sidebar( 'Header' ) ) : ?>
-									<!-- Wigitized Header -->
-								<?php endif ?>
-							</div><!--/widget-header-->
+						<div class="blue-header-block">
+							<?php echo of_get_option('telefoon'); ?>
 						</div>
+						<div class="blue-header-block">
+							<?php echo of_get_option('email'); ?>
+						</div>
+						<div class="blue-header-block">
+							<?php echo of_get_option('adres'); ?>
+						</div>
+						<?php if(is_front_page()): ?>
+							<div class="home_header_text_title">
+								<?php echo of_get_option('home_header_text_title'); ?>
+							</div>
+							<div class="home_header_text">
+								<?php echo of_get_option('home_header_text'); ?>
+							</div>
+							<a href="<?php echo get_post_type_archive_link('portfolio'); ?>" class="home_header_text_link"><?php echo __( 'ONTDEK HOE HET WERKT', L10n ) ?></a>
+						<?php endif; ?>
 					</div> <!--/clearfix-->
 					<nav class="primary">
 							<?php wp_nav_menu( array(
