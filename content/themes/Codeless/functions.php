@@ -148,3 +148,9 @@ register_sidebar( array(
 ));
 
 add_post_type_support( 'page', 'excerpt' );
+
+/* Make Menu */
+function register_my_menu() {
+  register_nav_menu('portfolio-menu',__( 'Portfolio Menu' ));
+}
+add_action( 'init', 'register_my_menu' );

@@ -185,6 +185,11 @@ li{
 li a:hover{
 	color: #009fdb;
 }
+
+.entry-meta{
+	border-bottom: 0;
+	margin-bottom: 0;
+}
 /*====================================================================================================================*/
 /*== div#container                                                                                 $cont           ==*/
 /*==================================================================================================================*/
@@ -323,6 +328,12 @@ body.home .sf-menu > li{
 	width: 158px;
 }
 
+.sf-menu ul ul{
+	top: 0 !important;
+	left: 100%;
+	margin-left: -2px;
+}
+
 body.home .sf-menu ul{
 	width: 156px;
 }
@@ -341,8 +352,10 @@ body.home .sf-menu ul{
 .sf-menu ul li:hover,
 .sf-menu ul li a:hover,
 .sf-menu ul li.current-menu-item > a,
+.sf-menu ul li.sfHover,
+.sf-menu ul li.sfHover > a,
 .sf-menu ul li.current-menu-item{
-	background: #0b79b0;
+	background: #0b79b0 !important;
 }
 /*====================================================================================================================*/
 /*== div#page-main                                                                                 $mainPage       ==*/
@@ -684,6 +697,94 @@ body.home textarea{
 body.home #sidebar .widget{
 	background: #7a7a7a !important;
 }
+
+#gallery .portfolio li{
+	width: auto;
+}
+
+#gallery .portfolio li a.image-wrap{
+	height: auto;
+}
+
+.single-portfolio .header-title h2,
+.tax-portfolio_category .header-title h2,
+.page-template-portfolio-php .header-title h2,
+.categories h2{
+	.font-size(20);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 24px;
+	color: #fff;
+	margin: 0 0 20px 20px;
+}
+
+.categories{
+	margin-top: -44px;
+	float: right;
+	width: 323px;
+	margin-left: 5px;
+}
+
+.categories ul{
+	margin: 0 0 35px 0;
+	min-height: 75px;
+}
+
+.categories ul li{
+	background: #005091;
+	padding: 0;
+	margin: 0 5px 5px 0;
+	float: left;
+	height: 70px;
+	width: 77px;
+}
+
+.categories ul li.last-child{
+	margin-right: 0 !important;
+}
+
+.categories ul li a{
+	text-indent: -99999px;
+	 display: block;
+	 background: url(@{themeurl}/images/categorie.png) no-repeat;
+	 background-position: -87px -36px;
+	 width: 37px;
+	 height: 36px;
+	 margin: 17px 20px;
+}
+
+.categories ul li.current-menu-item a,
+.categories ul li a:hover{
+	background-position-y: 0 !important;
+}
+
+.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/industrie/"]{
+	 background-position: -124px -34px;
+	 width: 39px;
+	 height: 33px;
+	 margin: 18px 19px;
+}
+
+.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/opslag/"]{
+	 background-position: 0 -34px;
+	 width: 39px;
+	 height: 34px;
+	 margin: 18px 19px;
+}
+
+.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/service/"]{
+	 background-position: -87px -36px;
+	 width: 37px;
+	 height: 36px;
+	 margin: 17px 20px;
+}
+
+.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/transport/"]{
+	 background-position: -39px -23px;
+	 width: 48px;
+	 height: 23px;
+	 margin: 23.5px 14.5px;
+}
 /*====================================================================================================================*/
 /*== #page-main / div#content-search                                                              $pageSearch      ==*/
 /*==================================================================================================================*/
@@ -691,6 +792,12 @@ body.home #sidebar .widget{
 /*====================================================================================================================*/
 /*== textarea / button / input                                                                    $forms           ==*/
 /*==================================================================================================================*/
+body #content .newer,
+body #content .older{
+	line-height: 35px;
+}
+
+body #content .oldernewer.single-oldernewer a,
 #searchform .submit,
 input[type="submit"], 
 input[type="reset"],
@@ -715,16 +822,18 @@ button{
 
 body.home #content a.read-more{
 	color: #fff;
+	background: url(@{themeurl}/images/read-more.png) no-repeat left center;
+	font-weight: 200;
 }
 
 body #content a.read-more{
 	.font-size(12);
 	font-family: 'Lato', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 24px;
 	color: #009dd9;
 	text-transform: uppercase;
-	background: url(@{themeurl}/images/read-more.png) no-repeat left center;
+	background: url(@{themeurl}/images/read-more-blue.png) no-repeat left center;
 	padding-left: 22px;
 }
 
@@ -902,6 +1011,39 @@ body #sidebar .gform_wrapper input[type="text"]{
 	.sf-menu ul li a{
 		margin: 0 5px;
 	}
+	
+	.categories{
+		width: 240px;
+	}
+	
+	.categories ul{
+		margin: 0 0 8px 0;
+	}
+	
+	.categories ul li{
+		height: 49px;
+		width: 56px;
+	}
+	
+	.categories ul li a{
+		margin: 5.5px 9.5px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/industrie/"]{
+		 margin: 6.5px 7.5px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/opslag/"]{
+		 margin: 6.5px 8.5px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/service/"]{
+		 margin: 5.5px 8.5px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/transport/"]{
+		 margin: 12px 3px;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -962,6 +1104,46 @@ body #sidebar .gform_wrapper input[type="text"]{
 	#footer #copyright{
 		width: 100%;
 		margin: 30px 0 30px 0;
+	}
+	
+	.categories{
+		margin-top: 20px;
+		float: left;
+		width: auto;
+		padding: 12px;
+	}
+	
+	.categories h2{
+		margin-left: 0;
+	}
+	
+	.categories ul{
+		margin: 0 0 35px 0;
+	}
+	
+	.categories ul li{
+		height: 70px;
+		width: 77px;
+	}
+	
+	.categories ul li a{
+		 margin: 17px 20px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/industrie/"]{
+		 margin: 18px 19px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/opslag/"]{
+		 margin: 18px 19px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/service/"]{
+		 margin: 17px 20px;
+	}
+	
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/transport/"]{
+		 margin: 23.5px 14.5px;
 	}
 }
 
