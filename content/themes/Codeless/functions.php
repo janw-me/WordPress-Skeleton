@@ -146,3 +146,5 @@ register_sidebar( array(
 	'before_title' => '<h3 class="widgettitle">',
 	'after_title' => '</h3>'
 ));
+
+add_post_type_support( 'page', 'excerpt' );

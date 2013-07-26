@@ -148,14 +148,16 @@
 								<div class="tagline"><?php bloginfo('description'); ?></div>
 							</div> <!-- /logo-->
 						</div>
-						<div class="blue-header-block">
-							<?php echo of_get_option('telefoon'); ?>
-						</div>
-						<div class="blue-header-block">
-							<?php echo of_get_option('email'); ?>
-						</div>
-						<div class="blue-header-block">
-							<?php echo of_get_option('adres'); ?>
+						<div class="blue-header-blocks">
+							<div class="blue-header-block">
+								<?php echo of_get_option('telefoon'); ?>
+							</div>
+							<div class="blue-header-block">
+								<?php echo of_get_option('email'); ?>
+							</div>
+							<div class="blue-header-block">
+								<?php echo of_get_option('adres'); ?>
+							</div>
 						</div>
 						<?php if(is_front_page()): ?>
 							<div class="home_header_text_title">

@@ -13,4 +13,6 @@ $(document).ready(function() {
 	
 	$('input[type="text"]').cleardefault();
 	$('textarea').cleardefault();
+	
+	$('#sidebar').find('.gform_wrapper').parent().css('background','#005091');
 });

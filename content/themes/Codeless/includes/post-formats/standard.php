@@ -6,7 +6,7 @@
 		<?php if(!is_singular()) : ?>
 			<h6 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php _e('Permalink to:', 'theme1958');?> <?php the_title(); ?>"><?php the_title(); ?></a></h6>
 		<?php else :?>
-			<h6 class="entry-title"><?php the_title(); ?></h6>
+			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php endif;
 		//get_template_part('includes/post-formats/post-meta'); ?>
 	</header>
