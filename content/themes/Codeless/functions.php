@@ -6,8 +6,11 @@ function thema_js_css(){
 	wp_enqueue_style( 'Google-Fonts', 'http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700' );
 	wp_enqueue_script( 'codeless-js', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), $ver, true );
 	wp_enqueue_style( 'codeless-style', get_stylesheet_directory_uri() . '/css-less/style.less', array( 'Google-Fonts' ) );
+	
+	wp_dequeue_script('flexslider');
 }
-add_action( 'wp_enqueue_scripts', 'thema_js_css' );
+add_action( 'wp_enqueue_scripts', 'thema_js_css', 100 );
+add_action( 'wp_enqueue_scripts', 'thema_js_css', 1 );
 
 class WP_Core_Disable
 {
