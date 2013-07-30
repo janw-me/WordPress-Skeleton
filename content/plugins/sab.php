@@ -112,6 +112,6 @@ function slider_func( $atts ) {
 	if($slug == ""){
 		return false;
 	}
-	return get_slides(null, $slug, false);
+	return get_the_flexslider_box(null, $slug, false);
 }
 add_shortcode( 'slider', 'slider_func' );
