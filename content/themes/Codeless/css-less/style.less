@@ -164,6 +164,7 @@ body.home .primary_content_wrap{
 	background: none;
 	margin: 0 0 66px 0;
 	padding: 0;
+	z-index: 1;
 }
 
 .last-child{
@@ -218,9 +219,11 @@ body.home #header{
 
 #header .indent-bottom{
 	display: inline-block;
+	width: 100%;
 }
 
 #header{
+	overflow: visible;
 	padding: 24px 0 24px 0;
 	width: 100%;
 	background: #005091;
@@ -334,6 +337,7 @@ body.home .sf-menu > li{
 	padding: 20px 0 25px 0;
 	top: 100% !important;
 	width: 158px;
+	z-index: 999;
 }
 
 .sf-menu ul ul{
@@ -730,6 +734,12 @@ body.home #sidebar .widget{
 	margin: 0 0 20px 20px;
 }
 
+.ie9 .single-portfolio .header-title h2,
+.ie9 .tax-portfolio_category .header-title h2,
+.ie9 .page-template-portfolio-php .header-title h2{
+	margin-bottom: 0;
+}
+
 .categories{
 	margin-top: -44px;
 	float: right;
@@ -765,11 +775,6 @@ body.home #sidebar .widget{
 	 margin: 17px 20px;
 }
 
-.categories ul li.current-menu-item a,
-.categories ul li a:hover{
-	background-position-y: 0 !important;
-}
-
 .categories ul li a[href="http://codeless.meekijken.net/portfolio_category/industrie/"]{
 	 background-position: -124px -34px;
 	 width: 39px;
@@ -796,6 +801,31 @@ body.home #sidebar .widget{
 	 width: 48px;
 	 height: 23px;
 	 margin: 23.5px 14.5px;
+}
+
+body .categories ul li.current-menu-item a,
+body .categories ul li a:hover{
+	background-position-y: 0;
+}
+
+.flex-control-nav li,
+.flexslider .slides > li{
+	padding: 0;
+}
+
+.flexslider .slides .slide-title,
+.flexslider .slides .slide-subtitle,
+.flex-direction-nav{
+	display: none;
+}
+
+body .flex-control-paging li a:hover,
+body .flex-control-paging li a.flex-active{
+	background: #009fdb;
+}
+
+body .flex-control-paging li a{
+	background: #808080;
 }
 /*====================================================================================================================*/
 /*== #page-main / div#content-search                                                              $pageSearch      ==*/
@@ -962,6 +992,33 @@ body #sidebar .gform_wrapper input[type="text"]{
 /*====================================================================================================================*/
 /*== @media                                                                			   			  $media           ==*/
 /*==================================================================================================================*/
+@-moz-document url-prefix(){
+	body .categories ul li.current-menu-item a,
+	body .categories ul li a:hover{
+		background-position: -87px 0;
+	}
+	
+	.categories ul li.current-menu-item a[href="http://codeless.meekijken.net/portfolio_category/industrie/"],
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/industrie/"]:hover{
+		 background-position: -124px 0;
+	}
+	
+	.categories ul li.current-menu-item a[href="http://codeless.meekijken.net/portfolio_category/opslag/"],
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/opslag/"]:hover{
+		 background-position: 0 0;
+	}
+	
+	.categories ul li.current-menu-item a[href="http://codeless.meekijken.net/portfolio_category/service/"],
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/service/"]:hover{
+		 background-position: -87px 0;
+	}
+	
+	.categories ul li.current-menu-item a[href="http://codeless.meekijken.net/portfolio_category/transport/"],
+	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/transport/"]:hover{
+		 background-position: -39px 0;
+	}
+}
+
 @media only screen and (max-width: 959px){
 	body.home .container_12,
 	.container_12{
@@ -1056,6 +1113,10 @@ body #sidebar .gform_wrapper input[type="text"]{
 	.categories ul li a[href="http://codeless.meekijken.net/portfolio_category/transport/"]{
 		 margin: 12px 3px;
 	}
+	
+	html.ie9 #footer #copyright .logo-footer{
+		margin-top: 0;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -1102,7 +1163,6 @@ body #sidebar .gform_wrapper input[type="text"]{
 	
 	#header .grid_7{
 		width: auto;
-		/*margin-top: -60px;*/
 	}
 	
 	#footer #footer-menu li.widget{
@@ -1160,6 +1220,10 @@ body #sidebar .gform_wrapper input[type="text"]{
 	
 	#header .home_header_text{
 		display: none;
+	}
+	
+	html.ie9 #header .blue-header-blocks{
+		clear: both;
 	}
 }
 
@@ -1228,4 +1292,12 @@ body #sidebar .gform_wrapper input[type="text"]{
 html.ie9,
 html.ie9 *{
 	filter: none;
+}
+
+html.ie9 #header{
+	position: static;
+}
+
+html.ie9 body.home #header{
+	position: relative;
 }
