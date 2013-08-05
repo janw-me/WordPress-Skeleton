@@ -10,7 +10,7 @@
 							<?php } ?>
 							<h1><?php the_title(); ?></h1>
 							<div id="page-content">
-								<?php if(get_the_excerpt()): ?>
+								<?php if(!empty($post->post_excerpt)): ?>
 							 		<div class="excerpt">
 							 			<?php the_excerpt(); ?>
 							 		</div>

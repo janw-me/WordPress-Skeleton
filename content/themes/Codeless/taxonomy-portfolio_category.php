@@ -4,15 +4,10 @@
 	</div>
 	<div id="content" class="grid_9 <?php echo of_get_option('blog_sidebar_pos') ?>">
 		<h2>
-			<?php if ( is_day() ) : /* if the daily archive is loaded */ 
-				printf( __( 'Daily Archives: <span>%s</span>' ), get_the_date() );
-			elseif ( is_month() ) : /* if the montly archive is loaded */
-				printf( __( 'Monthly Archives: <span>%s</span>' ), get_the_date('F Y') );
-			elseif ( is_year() ) : /* if the yearly archive is loaded */
-				printf( __( 'Yearly Archives: <span>%s</span>' ), get_the_date('Y') ); 
-			else : /* if anything else is loaded, ex. if the tags or categories template is missing this page will load */
-				_e('Blog Archives', 'theme1958');
-			endif; ?>
+			<?php 
+			$post_terms = wp_get_post_terms($post->ID, 'portfolio_category');
+			echo $post_terms[0]->name;
+			?>
 		</h2>
 	
 		<?php if (have_posts()) : while (have_posts()) : the_post(); 

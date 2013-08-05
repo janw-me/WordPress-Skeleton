@@ -166,7 +166,7 @@
 							<div class="home_header_text">
 								<?php echo of_get_option('home_header_text'); ?>
 							</div>
-							<a href="<?php echo get_post_type_archive_link('portfolio'); ?>" class="home_header_text_link"><?php echo __( 'ONTDEK HOE HET WERKT', L10n ) ?></a>
+							<a href="<?php echo of_get_option('home_header_link_url'); ?>" class="home_header_text_link"><?php echo of_get_option('home_header_link_text'); ?></a>
 						<?php endif; ?>
 					</div> <!--/clearfix-->
 					<nav class="primary">
@@ -198,7 +198,9 @@
 			while ( $r->have_posts() ) : $r->the_post(); ?>
 				<li>
 					<h2><?php the_title(); ?></h2>
-					<p><?php echo get_post_meta($post->ID, 'ba_textarea_samenvatting', true); ?></p>
+					<p>
+						<?php echo get_post_meta($post->ID, 'ba_textarea_samenvatting', true); ?>
+					</p>
 					<a href="<?php the_permalink() ?>" class="read-more" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php _e('Read more', L10n); ?></a>
 				</li>
 			<?php endwhile; ?>

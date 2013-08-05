@@ -19,17 +19,13 @@
 				<?php $post_excerpt = of_get_option('post_excerpt');
 				if ($post_excerpt=='true' || $post_excerpt=='') { ?>
 					<div class="excerpt">
-						<?php $content = get_the_content();
+						<?php
 						$excerpt = get_the_excerpt();
 	
 						if (has_excerpt()) {
 							the_excerpt();
 						} else {
-							if(!is_search()) {
-								echo my_string_limit_words($content,80);
-							} else {
-								echo my_string_limit_words($excerpt,80);
-							}
+							echo my_string_limit_words($excerpt,80);
 						} ?>
 					</div>
 				<?php } ?>

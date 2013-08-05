@@ -466,6 +466,18 @@ if(!function_exists('optionsframework_options')) {
 							"id" => "home_header_text",
 							"std" => "",
 							"type" => "textarea");
+							
+		$options['home_header_link_url'] = array( "name" => "Home pages header link url",
+							"desc" => "",
+							"id" => "home_header_link_url",
+							"std" => "",
+							"type" => "text");
+							
+		$options['home_header_link_text'] = array( "name" => "Home pages header link text",
+							"desc" => "",
+							"id" => "home_header_link_text",
+							"std" => "",
+							"type" => "text");
 		
 		
 		return $options;

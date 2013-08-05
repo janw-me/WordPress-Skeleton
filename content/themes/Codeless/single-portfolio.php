@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 	<div class="header-title">
-		<h2>Praktijkvoorbeelden</h2>
+		<h2>
+			<?php 
+			$post_terms = wp_get_post_terms($post->ID, 'portfolio_category');
+			echo $post_terms[0]->name;
+			?>
+		</h2>
 	</div>
 	<div id="content" class="grid_9 right">
 		<div class="page-header">
@@ -12,6 +17,7 @@
 		<div id="primary" class="hfeed <?php echo $mediaType; ?>">
 			<?php if( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+					<?php if(has_post_thumbnail()): ?>
 					<div class="clearfix">
 						<div class="grid_9 alpha omega">
 							<?php switch( $mediaType ) {
@@ -38,14 +44,18 @@
 							} ?>
 						</div>
 					</div>
-
+					<?php 
+					endif; 
+					$portfolioClient = get_post_meta($post->ID, 'tz_portfolio_client', true);
+					$portfolioDate = get_post_meta($post->ID, 'tz_portfolio_date', true); 
+					$portfolioInfo = get_post_meta($post->ID, 'tz_portfolio_info', true); 
+					$portfolioURL = get_post_meta($post->ID, 'tz_portfolio_url', true); 
+					if(!empty($portfolioClient) && !empty($portfolioDate) && !empty($portfolioInfo) && !empty($portfolioURL)):
+					?>
 					<div class="entry-content last">
 						<div class="entry-meta">
 							<?php // get the meta information and display if supplied
-							$portfolioClient = get_post_meta($post->ID, 'tz_portfolio_client', true);
-							$portfolioDate = get_post_meta($post->ID, 'tz_portfolio_date', true); 
-							$portfolioInfo = get_post_meta($post->ID, 'tz_portfolio_info', true); 
-							$portfolioURL = get_post_meta($post->ID, 'tz_portfolio_url', true);
+							
 
 							if (!empty($portfolioClient) || !empty($portfolioDate) || !empty($portfolioInfo) || !empty($portfolioURL)){
 								echo '<ul class="portfolio-meta-list rlist">';
@@ -81,8 +91,9 @@
 							}
 							?>
 						</div> <!-- /entry-meta -->
+						<?php endif; ?>
 						<?php the_content(); ?>
-					</div> <!-- /entry-content -->
+					<!-- /entry-content -->
 					<nav class="oldernewer single-oldernewer">
 						<?php if( get_previous_post() ) : ?>
 							<div class="older"><?php previous_post_link('%link', __('Vorige')) ?></div>
