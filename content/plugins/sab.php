@@ -78,7 +78,6 @@ class sab
 	                	<?php
 							$taxonomy = 'collection';
 							$tax_terms = get_terms($taxonomy);
-							print_r($tax_terms);
 						?>
 						<select id="add_slider_id">
 							<option value="">  <?php _e("Select a slider", "gravitysliders"); ?>  </option>

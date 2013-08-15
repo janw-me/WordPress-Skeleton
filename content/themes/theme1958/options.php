@@ -449,9 +449,15 @@ if(!function_exists('optionsframework_options')) {
 							"std" => "",
 							"type" => "text");
 							
-		$options['adres'] = array( "name" => "Adres",
+		$options['adres_text'] = array( "name" => "Adres text",
 							"desc" => "",
-							"id" => "adres",
+							"id" => "adres_text",
+							"std" => "",
+							"type" => "text");
+							
+		$options['adres_url'] = array( "name" => "Adres url",
+							"desc" => "",
+							"id" => "adres_url",
 							"std" => "",
 							"type" => "text");
 							

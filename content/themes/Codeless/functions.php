@@ -1,6 +1,7 @@
 <?php
 const L10n = 'codeless';
 add_image_size( 'medium-overview', 214, 161, true);
+add_image_size( 'gallery-crop', 90, 90, false);
 
 function thema_js_css(){
 	wp_enqueue_style( 'Google-Fonts', 'http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700' );

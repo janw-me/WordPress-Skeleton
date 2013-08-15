@@ -206,6 +206,19 @@ img.alignright{
 img.alignleft{
 	float: left !important;
 }
+
+#header .home_header_text_link:hover,
+#sidebar .widget ul li a:hover,
+#footer #footer-menu li.widget a:hover,
+body.home #content a.read-more:hover,
+.services ul li .read-more:hover,
+a:hover{
+	text-decoration: underline;
+}
+
+body .gallery-item .gallery-icon img{
+	border: 0 !important;
+}
 /*====================================================================================================================*/
 /*== div#container                                                                                 $cont           ==*/
 /*==================================================================================================================*/
@@ -262,6 +275,19 @@ body.home #header{
 	padding: 0 13px;
 	min-width: 132px;
 	margin-bottom: 6px;
+}
+
+#header .blue-header-block a{
+	.font-size(15);
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 32px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .blue-header-block a:hover{
+	text-decoration: underline;
 }
 
 #header .logo .tagline{
@@ -421,6 +447,11 @@ body.home #content article.post h6 a{
 	line-height: 30px;
 	color: #fff;
 	text-decoration: none;
+}
+
+body.home #content article.post h6 a:hover{
+	color: #fff !important;
+	text-decoration: underline !important;
 }
 
 body .entry-header.post-meta-true{
@@ -1024,6 +1055,27 @@ body #sidebar .gform_wrapper input[type="text"]{
 /*== #page-main / div#content-404                                                                 $page404         ==*/
 /*==================================================================================================================*/
 
+/*====================================================================================================================*/
+/*== #royalSlider		                                                               		  $royalSlider         ==*/
+/*==================================================================================================================*/
+body .rsUni, 
+body .rsUni .rsOverflow, 
+body .rsUni .rsSlide, 
+body .rsUni .rsVideoFrameHolder, 
+body .rsUni .rsThumbs{
+	background: none;
+}
+
+body .rsUni .rsBullet span{
+	width: 10px;
+	height: 10px;
+	background: #808080;
+}
+
+body .rsUni .rsBullet span:hover,
+body .rsUni .rsBullet.rsNavSelected span{
+	background: #009fdb;
+}
 /*====================================================================================================================*/
 /*== @media                                                                			   			  $media           ==*/
 /*==================================================================================================================*/

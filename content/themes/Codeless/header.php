@@ -156,7 +156,7 @@
 								<?php echo of_get_option('email'); ?>
 							</div>
 							<div class="blue-header-block">
-								<?php echo of_get_option('adres'); ?>
+								<a href="<?php echo of_get_option('adres_url'); ?>" target="_blank"><?php echo of_get_option('adres_text'); ?></a>
 							</div>
 						</div>
 						<?php if(is_front_page()): ?>
