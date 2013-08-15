@@ -485,6 +485,29 @@ if(!function_exists('optionsframework_options')) {
 							"std" => "",
 							"type" => "text");
 		
+		$options['social_facebook'] = array( "name" => "Social Facebook",
+							"desc" => "",
+							"id" => "social_facebook",
+							"std" => "",
+							"type" => "text");
+		
+		$options['social_twitter'] = array( "name" => "Social Twitter",
+							"desc" => "",
+							"id" => "social_twitter",
+							"std" => "",
+							"type" => "text");
+		
+		$options['social_youtube'] = array( "name" => "Social Youtube",
+							"desc" => "",
+							"id" => "social_youtube",
+							"std" => "",
+							"type" => "text");
+		
+		$options['social_linkedin'] = array( "name" => "Social Linkedin",
+							"desc" => "",
+							"id" => "social_linkedin",
+							"std" => "",
+							"type" => "text");
 		
 		return $options;
 	}

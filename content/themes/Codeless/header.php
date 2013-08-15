@@ -177,6 +177,34 @@
 								'depth'				=> 0,
 								'theme_location'	=> 'header_menu' 
 							)); ?>
+							<?php
+							if ( ! isset( $social ) ) {
+								$social = array(
+									'googleplus' => of_get_option( 'social_googleplus' ),
+									'facebook' => of_get_option( 'social_facebook' ),
+									'twitter' => of_get_option( 'social_twitter' ),
+									'linkedin' => of_get_option( 'social_linkedin' ),
+									'youtube' => of_get_option( 'social_youtube' ),
+								);
+							}
+							?>
+							<!--<ul class="social-share">
+								<?php if ( !empty( $social['googleplus'] ) ): ?><li>
+									<a href="<?php echo $social['googleplus'] ?>" class="sprite googleplus"><?php _e( 'Google+', L10n ) ?></a>
+								</li><?php endif ?>
+								<?php if ( !empty( $social['facebook'] ) ): ?><li>
+									<a href="<?php echo $social['facebook'] ?>" class="sprite facebook"><?php _e( 'Facebook', L10n ) ?></a>
+								</li><?php endif ?>
+								<?php if ( !empty( $social['twitter'] ) ): ?><li>
+									<a href="<?php echo $social['twitter'] ?>" class="sprite twitter" ><?php _e( 'Twitter', L10n ) ?></a>
+								</li><?php endif ?>
+								<?php if ( !empty( $social['linkedin'] ) ): ?><li>
+									<a href="<?php echo $social['linkedin'] ?>" class="sprite linkedin" ><?php _e( 'Linkedin', L10n ) ?></a>
+								</li><?php endif ?>
+								<?php if ( !empty( $social['youtube'] ) ): ?><li>
+									<a href="<?php echo $social['youtube'] ?>" class="sprite youtube" ><?php _e( 'Youtube', L10n ) ?></a>
+								</li><?php endif ?>
+							</ul>-->
 						</nav><!--/primary-->
 					
 					
@@ -201,7 +229,7 @@
 					<p>
 						<?php echo get_post_meta($post->ID, 'ba_textarea_samenvatting', true); ?>
 					</p>
-					<a href="<?php the_permalink() ?>" class="read-more" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php _e('Read more', L10n); ?></a>
+					<a href="<?php the_permalink() ?>" class="read-more" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php _e('Read More'); ?></a>
 				</li>
 			<?php endwhile; ?>
 		</ul></div>
