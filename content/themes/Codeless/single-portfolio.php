@@ -19,7 +19,7 @@
 				<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 					<?php if(has_post_thumbnail()): ?>
 					<div class="clearfix">
-						<div class="grid_9 alpha omega">
+						<div class="alpha omega">
 							<?php switch( $mediaType ) {
 								case "Image": ?>
 									<figure class="image-holder featured-thumbnail <?php echo $mediaType; ?>"><span class="img-box"><?php tz_image($post->ID, 'portfolio-main');?></span></figure>

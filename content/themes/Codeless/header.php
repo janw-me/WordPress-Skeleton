@@ -126,9 +126,19 @@
 <body <?php body_class(); ?>>
 	<div id="main"><!-- this encompasses the entire Web site -->
 		<header id="header">
+			<ul class="blue-header-blocks mobile">
+				<li class="blue-header-block">
+					<a href="tel:<?php echo of_get_option('telefoon'); ?>" class="telefoon"><?php echo of_get_option('telefoon'); ?></a>
+				</li>
+				<li class="blue-header-block">
+					<a href="mailto:<?php echo of_get_option('email'); ?>" class="email"><?php echo of_get_option('email'); ?></a>
+				</li>
+				<li class="blue-header-block">
+					<a href="<?php echo of_get_option('adres_url'); ?>" target="_blank" class="adres"><?php echo of_get_option('adres_text'); ?></a>
+				</li>
+			</ul>
 			<div class="container_12 clearfix">
 				<div class="grid_12">
-					
 					<div class="clearfix indent-bottom">
 						<div class="grid_7 alpha">
 							<div class="logo">
@@ -153,7 +163,7 @@
 								<?php echo of_get_option('telefoon'); ?>
 							</div>
 							<div class="blue-header-block">
-								<?php echo of_get_option('email'); ?>
+								<a href="mailto:<?php echo of_get_option('email'); ?>"><?php echo of_get_option('email'); ?></a>
 							</div>
 							<div class="blue-header-block">
 								<a href="<?php echo of_get_option('adres_url'); ?>" target="_blank"><?php echo of_get_option('adres_text'); ?></a>
@@ -166,7 +176,7 @@
 							<div class="home_header_text">
 								<?php echo of_get_option('home_header_text'); ?>
 							</div>
-							<a href="<?php echo of_get_option('home_header_link_url'); ?>" class="home_header_text_link"><?php echo of_get_option('home_header_link_text'); ?></a>
+							<a href="<?php echo of_get_option('home_header_link_url'); ?>" class="home_header_text_link lightview" data-lightview-type="iframe" data-lightview-options="skin: 'mac'"><?php echo of_get_option('home_header_link_text'); ?></a>
 						<?php endif; ?>
 					</div> <!--/clearfix-->
 					<nav class="primary">
@@ -185,10 +195,11 @@
 									'twitter' => of_get_option( 'social_twitter' ),
 									'linkedin' => of_get_option( 'social_linkedin' ),
 									'youtube' => of_get_option( 'social_youtube' ),
+									'slideshare' => of_get_option( 'social_slideshare' ),
 								);
 							}
 							?>
-							<!--<ul class="social-share">
+							<ul class="social-share">
 								<?php if ( !empty( $social['googleplus'] ) ): ?><li>
 									<a href="<?php echo $social['googleplus'] ?>" class="sprite googleplus"><?php _e( 'Google+', L10n ) ?></a>
 								</li><?php endif ?>
@@ -204,7 +215,10 @@
 								<?php if ( !empty( $social['youtube'] ) ): ?><li>
 									<a href="<?php echo $social['youtube'] ?>" class="sprite youtube" ><?php _e( 'Youtube', L10n ) ?></a>
 								</li><?php endif ?>
-							</ul>-->
+								<?php if ( !empty( $social['slideshare'] ) ): ?><li>
+									<a href="<?php echo $social['slideshare'] ?>" class="sprite slideshare" ><?php _e( 'SlideShare', L10n ) ?></a>
+								</li><?php endif ?>
+							</ul>
 						</nav><!--/primary-->
 					
 					

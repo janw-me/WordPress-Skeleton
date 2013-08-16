@@ -508,6 +508,12 @@ if(!function_exists('optionsframework_options')) {
 							"id" => "social_linkedin",
 							"std" => "",
 							"type" => "text");
+							
+		$options['social_slideshare'] = array( "name" => "Social SlideShare",
+							"desc" => "",
+							"id" => "social_slideshare",
+							"std" => "",
+							"type" => "text");
 		
 		return $options;
 	}

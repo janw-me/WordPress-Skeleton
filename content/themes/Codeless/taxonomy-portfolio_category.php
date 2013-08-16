@@ -1,13 +1,17 @@
 <?php get_header(); ?>
 	<div class="header-title">
-		<h2>Praktijkvoorbeelden</h2>
+		<h2>
+			<?php
+				_e('Praktijkvoorbeelden', L10n);
+				echo ": ";
+				$post_terms = wp_get_post_terms($post->ID, 'portfolio_category');
+				echo $post_terms[0]->name;
+			?>
+		</h2>
 	</div>
 	<div id="content" class="grid_9 <?php echo of_get_option('blog_sidebar_pos') ?>">
 		<h2>
-			<?php 
-			$post_terms = wp_get_post_terms($post->ID, 'portfolio_category');
-			echo $post_terms[0]->name;
-			?>
+			
 		</h2>
 	
 		<?php if (have_posts()) : while (have_posts()) : the_post(); 
