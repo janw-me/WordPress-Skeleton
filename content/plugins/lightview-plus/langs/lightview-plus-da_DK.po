@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-16 08:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nc:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\lightview-plus\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\lightview-plus\n"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:135
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:142
+msgid "Portal video"
+msgstr "Portal video"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:143
+msgid "Local video"
+msgstr "Lokal video"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:144
+msgid "Upload video"
+msgstr "Upload video"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:145
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:155
+msgid "Select video portal:"
+msgstr "Vælg video-portal:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:188
+msgid "Insert video ID:"
+msgstr "Indsæt video-id"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:202
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:260
+msgid "Show video without link"
+msgstr "Vis video uden link"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:208
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:266
+msgid "Link text:"
+msgstr "Link-tekst:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:218
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:276
+msgid "Insert"
+msgstr "Indsæt"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:220
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:278
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:329
+msgid "Cancel"
+msgstr "Fortryd"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:239
+msgid "Select video file:"
+msgstr "Vælg videofil:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:297
+msgid "Local video file:"
+msgstr "Lokal videofil:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:307
+msgid "Title:"
+msgstr "Titel:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:317
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:327
+msgid "Upload"
+msgstr "Upload"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:114
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:115
+msgid "Support"
+msgstr "Support"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:116
+msgid "Donate with PayPal"
+msgstr "Donér via PayPal"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:117
+msgid "Donate with Amazon Wishlist"
+msgstr "Donér med Amazon Wishlist"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:150
+msgid "Notice for:"
+msgstr "Besked om:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:152
+msgid "Update-Notice for:"
+msgstr "Updatebesked om:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:470
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Der er en video, som ikke kan vises i dette feed. "
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:470
+msgid "Visit the blog entry to see the video.]"
+msgstr "Besøg blogartiklen for at se videoen."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:508
+msgid "Video not available"
+msgstr "Video ikke tilgængelig"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:823
+msgid "Options saved."
+msgstr "Indstillinger gemt."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:834
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Lightviews JavaScript og/eller CSS er ikke kopieret til pluginnets mappe. Se installationsvejledning for flere detaljer."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:839
+msgid "Donation"
+msgstr "Donation"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:844
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested. If you don't have a clue how much you want to spend, the average of the last donations were €8. But every other amount is welcome. Please note, that PayPal takes for every transaction round about €0.50. So every donation below €1 is only a donation to PayPal ;-) Further you have the options to have a look at my amazon wishlist."
+msgstr "Lightview Plus har krævet mange timer og kræfter at udvikle. Hvis du kan bruge pluginnet, kan du støtte udviklingen af det ved at give et lille bidrag. Det vil anspore mig til at fortsætte udviklingen af det, yde utallige timers support og indarbejde de nye funktioner, som der bliver foreslået. Hvis du ikke aner, hvor meget du vil give, så var gennemsnittet af de seneste bidrag 8€, men ethvert beløb er velkomment. Bemærk, at PayPal tager omkring en halv euro for hver betaling. Så ethvert bidrag på under 1 € er kun et bidrag til PayPal ;-) Du kan endvidere kaste et blik på min Amazon Wishlist."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:845
+msgid "Donate via PayPal!"
+msgstr "Donér via PayPal!"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:845
+msgid "make a gift with Amazon"
+msgstr "giv en gave med Amazon"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:852
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:862
+msgid "Load newest prototype/scriptacolous javascript library version brought with lightview-plus?"
+msgstr "Indlæs den nyeste version af JavaScript-biblioteket Prototype/script.aculo.us, som leveres med Lightview Plus?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:864
+msgid "load prototype/scriptacolous javascript Library?"
+msgstr "Indlæs JavaScript-biblioteket Prototype/script.aculo.us?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:871
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:887
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:904
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:921
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:937
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:961
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:977
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1007
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1047
+msgid "yes"
+msgstr "ja"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:872
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:888
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:905
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:922
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:938
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:962
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:978
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1008
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1048
+msgid "no"
+msgstr "nej"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:876
+msgid "Please, deactivate this, if you know what you are doing. It loads a version of Prototype and Scriptaculous that works best with lightview"
+msgstr "Deaktivér venligst (kun) dette, hvis du ved, hvad du gør. Det indlæser en udgave af Prototype og script.aculo.us, som fungerer fint med Lightview"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:883
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Indlæs bibliotekerne Prototype & script.aculo.us fra Google?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:892
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype and scriptaculous will load."
+msgstr "Vælg dette, hvis du ønsker at indlæse Prototype og script.aculo.us fra Google, så du altid bruger den nye version. Ellers indlæses de lokale versioner af Prototype og script.aculo.us."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:900
+msgid "Activate Lightview for [gallery]?"
+msgstr "Aktivér Lightview for [gallery]?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:909
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Hvis aktiveret, vises WordPress' galleri med Lightview"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:917
+msgid "Activate Lightview for Videos?"
+msgstr "Aktivér Lightview for videoer?"
+
+# ???
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:926
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Implementerer videofunktionen. BEMÆRK: Det virker kun, hvis du ikke har aktiveret det indlejrede videoplugin"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:933
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Tag sikkerhedskopi af Lightviews JavaScript under opdatering?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:942
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Sikkerhedskopierer Lightviews JavaScript-filer af hensyn til opdateringen. Når opdateringen til en ny version er gennemført, er der ingen grund til at kopiere JavaScript-filerne tilbage til plugin-mappen."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:950
+msgid "Video Options"
+msgstr "Video-indstillinger"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:957
+msgid "Show Links under videos?"
+msgstr "Vis links under videoer?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:966
+msgid "Show a link to the original site of the video"
+msgstr "Vis et link til videoens oprindelige site"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:973
+msgid "Show a small Link under the Video?"
+msgstr "Vis et lille link under videoen?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:982
+msgid "If no, it will show a bigger text"
+msgstr "Hvis nej, vises en større tekst"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:991
+msgid "Separator"
+msgstr "Adskiller"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:996
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Definerer adskilleren mellem servicen (fx YouTube) og din kommentar"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1003
+msgid "Show in Feed?"
+msgstr "Vis i feed?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1012
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Du kan vælge, om du vil vise videoen i feedet. I øjeblikket er det kun muligt at vise et link til videoen."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1019
+msgid "Video Preview Width"
+msgstr "Bredde på videoens preview-billede"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1024
+msgid "Choose the width of the preview images for the videos"
+msgstr "Vælg bredde på videoernes preview-billeder"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1031
+msgid "Video Width"
+msgstr "Videobredde"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1036
+msgid "You can choose, what width the video and image have"
+msgstr "Du kan vælge, hvilken bredde videoerne og billedet skal have"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1043
+msgid "Show Video Debug Infos"
+msgstr "Vis videodebugging-info"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1052
+msgid "Shows video informations, like embed url or image url of the video. Only for debug!"
+msgstr "Vis videoinformationer, såsom videoens URL til indsættelse eller billed-URL&#39;en. Kun til debugging!"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1060
+msgid "Update Options »"
+msgstr "Opdatér indstillinger »"
+

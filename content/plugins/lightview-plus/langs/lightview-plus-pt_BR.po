@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus em Português\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 22:03+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Eduardo Enrietti <eenrietti@ivoxx.com.br>\n"
+"Language-Team: Eduardo Enrietti | http://blog.ivoxx.com.br <eenrietti@ivoxx.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+msgid "Select video portal:"
+msgstr "Selecione o portal do vídeo:"
+
+msgid "Insert video ID:"
+msgstr "Iserir ID do vídeo:"
+
+msgid "Show video without link"
+msgstr "Mostrar vídeo sem link"
+
+msgid "Link text:"
+msgstr "Link do texto:"
+
+msgid "Insert"
+msgstr "Inserir"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Select video file:"
+msgstr "Selecione o arquivo de vídeo:"
+
+msgid "Local video file:"
+msgstr "Local do arquivo de vídeo:"
+
+msgid "Title:"
+msgstr "Título:"
+
+msgid "Description:"
+msgstr "Descrição:"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Insert video URL:"
+msgstr "Coloque a URL do vídeo:"
+
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Há um vídeo que não pode ser visualizado neste feed."
+
+msgid "Visit the blog entry to see the video.]"
+msgstr "Visite o blog para ver este vídeo.]"
+
+msgid "Options saved."
+msgstr "Opções salvas."
+
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Lightview Javascript e/ou CSS não foi copiado para a pasta de plugins. Veja a instruções de instalação para maiores detalhes.."
+
+msgid "Donation"
+msgstr "Doação"
+
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation of $8. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested."
+msgstr "Lightview exigiu muito esforço e dedicação para ser desenvolvido. Se foi útil a você então você pode apoiar este desenvolvimento fazendo uma doação pequena de $8. Isto servirá como incentivo para que a equipe continue a melhorar, fornecendo horas incontáveis de apoio aos usuários e incluindo alguns ajustes que forem sugeridos."
+
+msgid "Donate via PayPal!"
+msgstr "Doe via PayPal!"
+
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+msgid "Load Prototype/Scriptacolous Javascript Library?"
+msgstr "Carregar Prototype/Scriptacolous da livraria Javascript?"
+
+msgid "yes"
+msgstr "sim"
+
+msgid "no"
+msgstr "não"
+
+msgid "Please, deactivate this, if you know what you are doing. It loads a compressed version of Prototype and Scriptaculous"
+msgstr "Por favor, desative este, se você sabe o que está fazendo. Isto carrega uma versão comprimida do Prototype and Scriptaculous"
+
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Carregar Prototype/Scriptacolous do Google?"
+
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype 1.6.0.3 and scriptaculous 1.8.2 will load."
+msgstr "Caso queira carregar prototype and scriptaculous do Google escolha e obtenha sempre uma versão mais nova. Caso contrário a versão local do prototype 1.6.0.3 e a versão do scriptaculous 1.8.2 irão ser carregadas."
+
+msgid "Activate Lightview for [gallery]?"
+msgstr "Ativar Lightview para [gallery]?"
+
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Se ativa, irá mostrar as galerias do WordPress© com o Lightview"
+
+msgid "Activate Lightview for Videos?"
+msgstr "Ativar o Lightview para os vídeos?"
+
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Implementar as funções de vídeos. ATENÇÃO: Irá funcionar, apenas, caso não tenha o embedded vídeo ativado"
+
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Fazer o backup do Lightview Javascript quando for atualizar?"
+
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Backup dos arquivos Javascript do Lightview razões de atualização. Após atualizar para uma nova versão do Lightview, é necessário copiar os arquivos Javascript para a pasta de plugins."
+
+msgid "Video Options"
+msgstr "Opções de Vídeo"
+
+msgid "Show Links under videos?"
+msgstr "Mostrar link sob os vídeos?"
+
+msgid "Show a link to the original site of the video"
+msgstr "Mostar o link para página original do vídeo"
+
+msgid "Show a small Link under the Video?"
+msgstr "Mostrar um pequeno link dentro do vídeo?"
+
+msgid "If no, it will show a bigger text"
+msgstr "Se não, irá exibir um texto grande"
+
+msgid "Separator"
+msgstr "Separador"
+
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Defina o separador entre os serviços (ex. YouTube) e o conteúdo de seu site"
+
+msgid "Show in Feed?"
+msgstr "Mostrar no Feed?"
+
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Você pode escolher, se quiser mostrar o vídeo em seu Feed. Porém atualmente, é possível mostrar, somente, um link para o vídeo"
+
+msgid "Video Width"
+msgstr "Largura do vídeo"
+
+msgid "You can choose, what width the video and image have"
+msgstr "Você pode escolher qual largura o vídeo e as imagens terão"
+
+msgid "Video Preview Width"
+msgstr "Largura da Pré-Visualização do vídeo"
+
+msgid "Choose the width of the preview images for the videos"
+msgstr "Escolha a largura da pré-visualização dos vídeos e das imagens"
+
+msgid "Update Options »"
+msgstr "Salvar Alterações »"
+

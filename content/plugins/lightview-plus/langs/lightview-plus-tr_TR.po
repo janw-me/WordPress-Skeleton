@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus 2.0 in Turkish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 22:03+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: cem <x@tr.st>\n"
+"Language-Team: Cem Gedik | Gri Fikirler <info@grifikirler.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus\n"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:117
+msgid "Lightview Plus"
+msgstr "Lightview Plus Türkçe"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:137
+msgid "Select video portal:"
+msgstr "Video portalını seçin:"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:168
+msgid "Insert video ID:"
+msgstr "Video ID'sini ekleyin:"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:182
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:240
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:338
+msgid "Show video without link"
+msgstr "Videoyu bağlantısız göster"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:188
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:246
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:344
+msgid "Link text:"
+msgstr "Bağlantı yazısı :"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:198
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:256
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:353
+msgid "Insert"
+msgstr "Ekle"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:200
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:258
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:309
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:355
+msgid "Cancel"
+msgstr "İptal"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:219
+msgid "Select video file:"
+msgstr "Video dosyasını seç : "
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:277
+msgid "Local video file:"
+msgstr "Lokal video dosyası :"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:287
+msgid "Title:"
+msgstr "Başlık  :"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:297
+msgid "Description:"
+msgstr "Açıklama :"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:307
+msgid "Upload"
+msgstr "Yükle"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:324
+msgid "Insert video URL:"
+msgstr "Video adresini ekleyin :"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:377
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Bu beslemede gösterilemeyecek bir video var."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:377
+msgid "Visit the blog entry to see the video.]"
+msgstr "Videoyu izlemek için blog yazısını ziyaret edin.]"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:542
+msgid "Options saved."
+msgstr "Ayarlar kaydedildi."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:553
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr " Javascript ve(ya) CSS eklenti dizinine kopyalanmamış. Daha fazla detay için kurulum açıklamalarına bakın."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:558
+msgid "Donation"
+msgstr "Bağış"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:563
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation of $8. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested."
+msgstr "Lightview Plusın geliştirilmesi için fazla zaman ve emek gerekmekte. Eğer kullanışlı buluyorsanız; bu geliştirmeyi  8$ lık bir bağışla destekleyebilirsiniz. Bu benim için geliştirme, destek ve isteklerinizin gerçekleşmesi konularında destekleyici olacaktır."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:564
+msgid "Donate via PayPal!"
+msgstr "PayPalle bağış yapınl !"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:571
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:579
+msgid "Load Prototype/Scriptacolous Javascript Library?"
+msgstr "Prototype/Scriptacolous Javascript Kütüphanesini yükle ?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:583
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:599
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:616
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:633
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:649
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:673
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:689
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:719
+msgid "yes"
+msgstr "evet"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:584
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:600
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:617
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:634
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:650
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:674
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:690
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:720
+msgid "no"
+msgstr "hayır"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:588
+msgid "Please, deactivate this, if you know what you are doing. It loads a compressed version of Prototype and Scriptaculous"
+msgstr "Lütfen, ne yaptığınızı biliyorsanız bunu kapatın. Sıkıştırılmış Prototype et Scriptaculous sürümlerini yükler."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:595
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Prototype ve Scriptaculous kütüphaneleri için Google'ı kullan?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:604
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype 1.6.0.3 and scriptaculous 1.8.2 will load."
+msgstr "Prototype ve scriptaculous kütüphanelerini Google üzerinden çağırırsanız hen en yeni sürümlere ulaşırsınız. Lokal sürümler olarak 1.6.0.3 ve scriptaculous 1.8.2 yüklenir."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:612
+msgid "Activate Lightview for [gallery]?"
+msgstr "[gallery] için Lightview'i etkinleştir?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:621
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Eğer etkinleştirilirse, wordpress galerisini lightview ile gösterir."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:629
+msgid "Activate Lightview for Videos?"
+msgstr "Videolar için etkinleştir ?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:638
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Video özelliği geliştirir. DİKKAT: Sadece embedded video eklentisi olmadığında çalışır"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:645
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Güncelleme süresince Lightview Javascript yedeklensin mi?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:654
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Lightview javascript dosyalarını güncelleme sırasında yedekler. Yeni bir lightview-plus sürümüne geçildiğinde, eklenti dizinine yedek javascript dosyalarını geri kopyalamak gereksizdir."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:662
+msgid "Video Options"
+msgstr "Video Ayarları"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:669
+msgid "Show Links under videos?"
+msgstr "Videoların altında bağlantıları göster ?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:678
+msgid "Show a link to the original site of the video"
+msgstr "Videonun bulunduğu sitenin bağlantısını gösterir"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:685
+msgid "Show a small Link under the Video?"
+msgstr "Video altında ufak bağlantı göster?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:694
+msgid "If no, it will show a bigger text"
+msgstr "Eğer hayırsa, büyük yazı gösterir"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:703
+msgid "Separator"
+msgstr "Ayraç"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:708
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Servis (örn. Youtube) ile yorumunuz arasındaki ayracı belirleyebilirsiniz"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:715
+msgid "Show in Feed?"
+msgstr "Beslemede göster?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:724
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Videoyu RSS beslemesinde göstermek isterseniz seçebilirsiniz. Şuan için sadece video bağlantısını göstermek mümkün"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:731
+msgid "Video Width"
+msgstr "Video Genişliği"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:736
+msgid "You can choose, what width the video and image have"
+msgstr "Videonun ve resmin genişliğini  seçebilirsiniz"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:743
+msgid "Update Options »"
+msgstr "Ayarları Güncelle »"
+

@@ -1,0 +1,195 @@
+div.icon32 {
+	/* background:url(../img/icon32.png) no-repeat; */
+}
+
+div.postbox h3 {
+	cursor:default;
+}
+
+div.postbox:first-child 
+div.inside {
+	/* background:url(../img/icon200.png) no-repeat right bottom; */
+}
+
+img#ab_icon {
+	width:11px;
+	height:9px;
+	border:0;
+}
+
+.inside ul {
+	margin:12px 6px;
+}
+
+.inside>ul {
+	clear:both;
+	width:460px;
+	border:1px solid rgb(223,223,223);
+	padding:6px 12px 1px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: inset 0 1px 0 white;
+	-moz-box-shadow: inset 0 1px 0 white;
+	-webkit-box-shadow: inset 0 1px 0 white;
+}
+
+
+.inside ul li {
+	padding:3px 0 2px;
+}
+
+.inside ul li ul {
+	margin:10px 0 -6px 14px;
+	height:1%;
+	overflow:hidden;
+}
+
+.inside ul li .inact {
+	display:none;
+}
+
+.inside ul li ul li {
+	padding:0 4px 8px;
+	font-size:11px;
+}
+
+.inside ul li ul li:first-child {
+	margin:0 0 1px;
+}
+
+.inside ul li ul li select {
+	width:100px;
+}
+
+.inside ul li .shift>ul:first-child {
+	margin-bottom:-14px;
+} 
+.inside ul li .shift li {
+	float:left;
+}
+
+.inside ul li .shift li label {
+	margin:0 3px;
+}
+
+.inside ul li .shift li .code,.inside ul li .shift li .block {
+	display:block;
+}
+
+input.small-text {
+	width:40px;
+	margin:-2px 0;
+}
+
+input.regular-text {
+	width:160px;
+}
+
+input.maxi-text {
+	width:350px;
+}
+
+
+/*******************
+* TipTip Tool Tip *
+*******************/
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(25,25,25);
+	background-color: rgba(25,25,25,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #fff;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+	border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color: #fff;
+	border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color: #fff;
+	border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: rgb(25,25,25);
+	border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: rgb(25,25,25);
+	border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: rgb(25,25,25);
+	border-left-color: rgba(25,25,25,0.92);
+}

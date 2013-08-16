@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus 2.0 in spanish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-09 16:00+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: NeKRoMaNT <contacto@nekromant.com>\n"
+"Language-Team: NeKRoMaNT | http://www.nekromant.com/ <contacto@nekromant.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+msgid "Select video portal:"
+msgstr "Selecciona portal de video"
+
+msgid "Insert video ID:"
+msgstr "Inserta ID de video"
+
+msgid "Show video without link"
+msgstr "Mostrar video sin enlace"
+
+msgid "Link text:"
+msgstr "Texto del enlace:"
+
+msgid "Insert"
+msgstr "Insertar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Select video file:"
+msgstr "Selecciona fichero de video:"
+
+msgid "Local video file:"
+msgstr "Fichero de video local:"
+
+msgid "Title:"
+msgstr "Título:"
+
+msgid "Description:"
+msgstr "Descripción:"
+
+msgid "Upload"
+msgstr "Subir"
+
+msgid "Insert video URL:"
+msgstr "Inserta URL del video:"
+
+msgid "Notice for:"
+msgstr "Aviso para:"
+
+msgid "Update-Notice for:"
+msgstr "Aviso de actualización para:"
+
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Éste es un video que no puede ser mostrado en este feed."
+
+msgid "Visit the blog entry to see the video.]"
+msgstr "Visita la entrada del blog para ver el video.]"
+
+msgid "Options saved."
+msgstr "Opciones guardadas."
+
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "El Javascript y/o CSS de Lightview no se han copiado al directorio de plugins. Lee las instrucciones de instalación para mayores detalles."
+
+msgid "Donation"
+msgstr "Donación"
+
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation of $8. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested."
+msgstr "Lightview Plus ha requerido una gran cantidad de tiempo y esfuerzo para desarrollarse. Si te ha sido útil, puedes apoyar el desarrollo haciendo una pequeña donación de 8$. Esto me servirá como incentivo para continuar desarrollándolo, facilitando incontables horas de soporte e incluyendo cada mejora que sea sugerida."
+
+msgid "Donate via PayPal!"
+msgstr "¡Donar via PayPal!"
+
+msgid "General Settings"
+msgstr "Opciones Generales"
+
+msgid "Load Prototype/Scriptacolous Javascript Library?"
+msgstr "¿Cargar Biblioteca de Javascript Prototype/Scriptaculous?"
+
+msgid "yes"
+msgstr "sí"
+
+msgid "no"
+msgstr "no"
+
+msgid "Please, deactivate this, if you know what you are doing. It loads a compressed version of Prototype and Scriptaculous"
+msgstr "Por favor, desactiva esto únicamente si sabes lo que estás haciendo. Sirve para cargar una versión comprimida de Prototype y Scriptaculous"
+
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "¿Cargar librerías Prototype y Scriptaculous desde Google?"
+
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype 1.6.0.3 and scriptaculous 1.8.2 will load."
+msgstr "Escoge si quieres cargar Prototype y Scriptaculous desde Google y tener siempre la última versión. De lo contrario, serán cargadas las versiones locales de Prototype 1.6.0.3 y Scriptaculous 1.8.2."
+
+msgid "Activate Lightview for [gallery]?"
+msgstr "¿Activar Lightview para [gallery]?"
+
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Si está activado, muestra la galería de Wordpress con Lightview"
+
+msgid "Activate Lightview for Videos?"
+msgstr "¿Activar Lightview para Videos?"
+
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Implementa la función de video. ATENCIÓN: Únicamente funcionará si no tienes el plugin de video incrustado activo"
+
+msgid "Backup Lightview Javascript during Update?"
+msgstr "¿Hacer copia del Javascript de Lightview durante la actualización?"
+
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Hace copia de los ficheros javascript de Lightview por motivos de actualización. Tras la actualización a una nueva versión de Lightview Plus, NO es necesario copiar los ficheros de javascript en el directorio de plugins."
+
+msgid "Video Options"
+msgstr "Opciones de Video"
+
+msgid "Show Links under videos?"
+msgstr "¿Mostrar enlaces bajo los videos?"
+
+msgid "Show a link to the original site of the video"
+msgstr "Mostrar un enlace al sitio original del video"
+
+msgid "Show a small Link under the Video?"
+msgstr "¿Mostrar un enlace pequeño bajo el video?"
+
+msgid "If no, it will show a bigger text"
+msgstr "En caso contrario, mostrará un texto más grande"
+
+msgid "Separator"
+msgstr "Separador"
+
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Define el separador entre el servicio (p.ej. Youtube) y tu comentario"
+
+msgid "Show in Feed?"
+msgstr "¿Mostrar en Feed?"
+
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Puedes elegir si quieres mostrar el video en el feed. Actualmente sólo es posible mostrar un enlace al video"
+
+msgid "Video Preview Width"
+msgstr "Ancho de la previsualización del video"
+
+msgid "Choose the width of the preview images for the videos"
+msgstr "Escoge el ancho de las imágenes de previsualización para los videos"
+
+msgid "Video Width"
+msgstr "Ancho del video"
+
+msgid "You can choose, what width the video and image have"
+msgstr "Puedes elegir qué ancho tendrán las imágenes y el video"
+
+msgid "Update Options »"
+msgstr "Opciones de Actualización »"
+

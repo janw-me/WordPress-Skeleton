@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus 2.5.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-16 08:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rene <info@wpwebshop.com>\n"
+"Language-Team: Dutch translation: WordPressWebshop.com <info@wpwebshop.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nc:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\lightview-plus\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\lightview-plus\n"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:135
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:142
+msgid "Portal video"
+msgstr "Portaal video"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:143
+msgid "Local video"
+msgstr "Lokale video"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:144
+msgid "Upload video"
+msgstr "Upload video"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:145
+msgid "Video URL"
+msgstr "Video URL"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:155
+msgid "Select video portal:"
+msgstr "Selecteer video portaal:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:188
+msgid "Insert video ID:"
+msgstr "Invoegen video ID:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:202
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:260
+msgid "Show video without link"
+msgstr "Weergave video zonder link"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:208
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:266
+msgid "Link text:"
+msgstr "Link text:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:218
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:276
+msgid "Insert"
+msgstr "Invoegen"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:220
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:278
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:329
+msgid "Cancel"
+msgstr "Afbreken"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:239
+msgid "Select video file:"
+msgstr "Selecteer video bestand:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:297
+msgid "Local video file:"
+msgstr "Lokaal videobestand:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:307
+msgid "Title:"
+msgstr "Titel:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:317
+msgid "Description:"
+msgstr "Omschrijving:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus-popup.php:327
+msgid "Upload"
+msgstr "Upload"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:114
+msgid "Settings"
+msgstr "Instellingen"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:115
+msgid "Support"
+msgstr "Support"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:116
+msgid "Donate with PayPal"
+msgstr "Doneren via PayPal"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:117
+msgid "Donate with Amazon Wishlist"
+msgstr "Doneren via Amazon Wishlist"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:150
+msgid "Notice for:"
+msgstr "Bericht voor:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:152
+msgid "Update-Notice for:"
+msgstr "Update bericht voor:"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:470
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Er is een video welke niet weergegeven kan worden in deze feed. "
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:470
+msgid "Visit the blog entry to see the video.]"
+msgstr "Bezoek de blog om de video te zien.]"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:508
+msgid "Video not available"
+msgstr "Video niet beschikbaar"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:823
+msgid "Options saved."
+msgstr "Opties opgeslagen."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:834
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Lightview Javascript en/of CSS is niet gekopieerd naar de plugin folder. Zie installatie instructies voor meer details."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:839
+msgid "Donation"
+msgstr "Donatie"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:844
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested. If you don't have a clue how much you want to spend, the average of the last donations were €8. But every other amount is welcome. Please note, that PayPal takes for every transaction round about €0.50. So every donation below €1 is only a donation to PayPal ;-) Further you have the options to have a look at my amazon wishlist."
+msgstr "Lightview Plus heeft veel tijd en moeite vereist om te ontwikkelen. Als het nuttig voor je is gebleken kun je de ontwikkeling steunen door een kleine donatie. Deze zal fungeren als een stimulans voor mij voor verdere ontwikkeling, die talloze uren van ondersteuning kost, met inbegrip van alle voorgestelde verbeteringen. Als je geen flauw idee hebt hoeveel je wilt uitgeven, het gemiddelde van de laatste donaties was €8, maar elk ander bedrag is welkom. Let op dat elke PayPal transactie mij rond €0,50 kost, dus elke donatie minder dan €1 is alleen een donatie voor PayPal ;-) Een andere optie is om een kijkje te nemen op mijn Amazon verlanglijstje."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:845
+msgid "Donate via PayPal!"
+msgstr "Doneer via PayPal!"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:845
+msgid "make a gift with Amazon"
+msgstr "Geef een kado via Amazon"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:852
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:862
+msgid "Load newest prototype/scriptacolous javascript library version brought with lightview-plus?"
+msgstr "Nieuwste versie prototype/scriptacolous javascript library laden welke komt met lightview-plus?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:864
+msgid "load prototype/scriptacolous javascript Library?"
+msgstr "Laad prototype/scriptacolous javascript Library?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:871
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:887
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:904
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:921
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:937
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:961
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:977
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1007
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1047
+msgid "yes"
+msgstr "ja"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:872
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:888
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:905
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:922
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:938
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:962
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:978
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1008
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1048
+msgid "no"
+msgstr "nee"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:876
+msgid "Please, deactivate this, if you know what you are doing. It loads a version of Prototype and Scriptaculous that works best with lightview"
+msgstr "Deactiveer dit als je weet waar je mee bezig bent. Het laadt een versie van Prototype en Scriptaculous welke het beste werkt met lightview"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:883
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Laad de Prototype & Scriptacolous Libraries van Google?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:892
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype and scriptaculous will load."
+msgstr "Kies dit als je prototype en scriptaculous wilt laden van Google en altijd in de nieuwste versie, anders worden de locale versies van prototype en scriptaculous geladen."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:900
+msgid "Activate Lightview for [gallery]?"
+msgstr "Activeren Lightview voor [gallery]?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:909
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Indien geactiveerd geeft het de WordPress galerij weer met lightview"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:917
+msgid "Activate Lightview for Videos?"
+msgstr "Activeren Lightview voor Videos?"
+
+# ???
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:926
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Implementeer de video functie. ATTENTIE: het werkt alleen als je niet de embedded video plugin geactiveerd hebt."
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:933
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Backup Lightview Javascript tijdens update?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:942
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Maakt een backup van de lightview javascript bestanden voor upgrade redenen. Het is niet nodig de javascript bestanden terug te kopieeren naar de plugin folder na de upgrade naar een nieuwe lightview-plus versie. "
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:950
+msgid "Video Options"
+msgstr "Video Opties"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:957
+msgid "Show Links under videos?"
+msgstr "Weergave Links onder videos?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:966
+msgid "Show a link to the original site of the video"
+msgstr "Laat een link zien naar de originele videosite"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:973
+msgid "Show a small Link under the Video?"
+msgstr "Laat een kleine link zien onder de Video?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:982
+msgid "If no, it will show a bigger text"
+msgstr "Zo niet zal het een grotere tekst weergeven"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:991
+msgid "Separator"
+msgstr "Scheidingsteken"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:996
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Bepaalt het scheidingsteken tussen de service (bijv. YouTube) en je opmerking"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1003
+msgid "Show in Feed?"
+msgstr "Weergave in Feed?"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1012
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Je kunt kiezen of je de video wilt laten zien in de feed. Op dit moment is het alleen mogelijk om een link naar de video te laten zien"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1019
+msgid "Video Preview Width"
+msgstr "Breedte Video Preview"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1024
+msgid "Choose the width of the preview images for the videos"
+msgstr "Kies de breedte van de preview-beelden voor de video's"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1031
+msgid "Video Width"
+msgstr "Video Breedte"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1036
+msgid "You can choose, what width the video and image have"
+msgstr "Je kunt kiezen wat de breedte van het video- en afbeeldingsbestand zijn"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1043
+msgid "Show Video Debug Infos"
+msgstr "Toon Video Debug Info"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1052
+msgid "Shows video informations, like embed url or image url of the video. Only for debug!"
+msgstr "Toon video informatie, zoals URL insluiten of afbeeldings-URL van de video. Alleen voor debug!"
+
+#: d:\wordpress\plugins\lightview-plus/lightview-plus.php:1060
+msgid "Update Options »"
+msgstr "Bijwerken Opties »"
+

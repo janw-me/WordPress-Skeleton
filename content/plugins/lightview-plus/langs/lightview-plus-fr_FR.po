@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus 2.0 in french\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-12 11:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Martin Vauchel <martin@vauchel.com>\n"
+"Language-Team: Martin Vauchel | http://www.vauchel.com/blog <martin@vauchel.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Martin/Desktop/lightview-plus\n"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:117
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:137
+msgid "Select video portal:"
+msgstr "Sélectionner le portail vidéo :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:169
+msgid "Insert video ID:"
+msgstr "Insérer l'ID de la vidéo :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:183
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:241
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:339
+msgid "Show video without link"
+msgstr "Afficher la vidéo sans lien"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:189
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:247
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:345
+msgid "Link text:"
+msgstr "Texte du lien :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:199
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:257
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:354
+msgid "Insert"
+msgstr "Insérer"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:201
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:259
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:310
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:356
+msgid "Cancel"
+msgstr "Annuler"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:220
+msgid "Select video file:"
+msgstr "Sélectionner le fichier vidéo :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:278
+msgid "Local video file:"
+msgstr "Fichier vidéo local :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:288
+msgid "Title:"
+msgstr "Titre :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:298
+msgid "Description:"
+msgstr "Description :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:308
+msgid "Upload"
+msgstr "Envoyer"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus-popup.php:325
+msgid "Insert video URL:"
+msgstr "Insérer l'URL de la vidéo :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:133
+msgid "Notice for:"
+msgstr "Avertissement :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:135
+msgid "Update-Notice for:"
+msgstr "Avertissement de mise à jour :"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:475
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Il y a une vidéo qui ne peut pas être affichée dans ce flux."
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:475
+msgid "Visit the blog entry to see the video.]"
+msgstr "Rendez vous sur l'article pour voir la vidéo.]"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:657
+msgid "Options saved."
+msgstr "Options enregistrées."
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:668
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Le Javascript et/ou le CSS ne sont pas copiés dans le répertoire du plugin. Voir les instructions d'installations pour plus de détails."
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:673
+msgid "Donation"
+msgstr "Donation"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:678
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation of $8. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested."
+msgstr "Le développement de Lightview Plus a demandé beaucoup de temps et d'effort. S'il vous est utile, vous pouvez soutenir son développement à l'aide d'un petit don de 8$.  Cela m'incitera à poursuivre le développement, à assurer d'inombrables heures de support, et à intégrer les suggestions d'améliorations."
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:679
+msgid "Donate via PayPal!"
+msgstr "Donner via PayPal !"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:686
+msgid "General Settings"
+msgstr "Réglages principaux"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:694
+msgid "Load Prototype/Scriptacolous Javascript Library?"
+msgstr "Charger les bibliothèques Prototype/Scriptaculous ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:698
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:714
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:731
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:748
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:764
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:788
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:804
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:834
+msgid "yes"
+msgstr "oui"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:699
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:715
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:732
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:749
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:765
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:789
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:805
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:835
+msgid "no"
+msgstr "non"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:703
+msgid "Please, deactivate this, if you know what you are doing. It loads a compressed version of Prototype and Scriptaculous"
+msgstr "Désactivez seulement si vous savez ce que vous faites. Cette option charge une version compressé des bibliothèques Javascript Prototype et Scriptaculous"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:710
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Charger les bibliothèques Prototype/Scriptaculous de Google ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:719
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype 1.6.0.3 and scriptaculous 1.8.2 will load."
+msgstr "Si vous choisissez de charger Prototype et Scriptaculous directement depuis Google vous obtiendrez toujours la dernière version. Sinon les versions locales de Prototype (1.6.0.3) and Scriptaculous (1.8.2) seront chargées."
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:727
+msgid "Activate Lightview for [gallery]?"
+msgstr "Activer pour la galerie ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:736
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Si activé, la galerie de WordPress utilisera Lightview Plus"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:744
+msgid "Activate Lightview for Videos?"
+msgstr "Activer pour les vidéos ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:753
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Implémente la fonction vidéo de Lightview Plus. ATTENTION : fonctionne uniquement si le plugin \"embedded video\" n'est pas actif"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:760
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Sauvegarder le javascript de Lightview lors de la mise à jour ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:769
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Sauvegarde les fichiers javacripts de Lightview lors d'une mise à jour de Lightview-plus. Si activé, il n'est plus nécessaire de copier les fichiers javascripts de Lightview dans le répertoire du plugin."
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:777
+msgid "Video Options"
+msgstr "Réglages des vidéos"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:784
+msgid "Show Links under videos?"
+msgstr "Afficher les liens sous les vidéos ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:793
+msgid "Show a link to the original site of the video"
+msgstr "Affiche un lien vers le site original des vidéos"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:800
+msgid "Show a small Link under the Video?"
+msgstr "Afficher un lien court sous les vidéos ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:809
+msgid "If no, it will show a bigger text"
+msgstr "Si non, un texte plus grand sera affiché"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:818
+msgid "Separator"
+msgstr "Séparateur"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:823
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Défini le séparateur entre le service (ex. YouTube) et votre commentaire"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:830
+msgid "Show in Feed?"
+msgstr "Afficher dans le Flux ?"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:839
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Affiche ou non les vidéos dans le flux RSS. Pour le moment il est seulement possible d'afficher un lien vers les vidéos"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:846
+msgid "Video Preview Width"
+msgstr "Largeur de la prévisualisation"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:851
+msgid "Choose the width of the preview images for the videos"
+msgstr "Défini la largeur de l'image de prévisualisation des vidéos"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:858
+msgid "Video Width"
+msgstr "Largeur des vidéos"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:863
+msgid "You can choose, what width the video and image have"
+msgstr "Défini la largeur des vidéos et de l'image cliquable"
+
+#: /Users/Martin/Desktop/lightview-plus/lightview-plus.php:870
+msgid "Update Options »"
+msgstr "Mettre à jour »"
+
