@@ -50,7 +50,7 @@ class WP_Core_Disable
 			remove_menu_page( 'edit.php' );
 		}
 		if ($this->hide_extra) {
-			remove_menu_page( 'tools.php' );
+			//remove_menu_page( 'tools.php' );
 		}
 	}
 

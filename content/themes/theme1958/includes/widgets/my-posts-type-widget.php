@@ -91,7 +91,7 @@ class MY_PostsTypeWidget extends WP_Widget {
 									<a href="<?php the_permalink() ?>">
 								<?php endif; 
 									if($instance['thumb_w']!=="" || $instance['thumb_h']!==""){ ?>
-										<img src="<?php echo $image; ?>" alt="<?php the_title(); ?>">
+										<?php the_post_thumbnail(array($instance['thumb_w'], $instance['thumb_h'])); ?>
 									<?php }else{
 										the_post_thumbnail();
 									}

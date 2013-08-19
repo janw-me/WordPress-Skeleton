@@ -39,7 +39,6 @@
 						<?php $thumb = get_post_thumbnail_id();
 						$img_url = wp_get_attachment_url( $thumb,'full'); //get img URL
 						$image = aq_resize( $img_url, 594, 0, true ); //resize & crop img
-	
 						//mediaType init
 						$mediaType = get_post_meta($post->ID, 'tz_portfolio_type', true);
 						
@@ -49,7 +48,7 @@
 							<figure class="featured-thumbnail">
 								<span class="img-box">
 									<a class="image-wrap touch-item" href="<?php echo $img_url;?>" title="<?php the_title();?>">
-										<img src="<?php echo $image ?>" alt="<?php the_title(); ?>">
+										<?php the_post_thumbnail(array(614,594)); ?>
 										<span class="zoom-icon"></span>
 									</a>
 								</span>

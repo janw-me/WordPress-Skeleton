@@ -22,7 +22,7 @@
 						<div class="alpha omega">
 							<?php switch( $mediaType ) {
 								case "Image": ?>
-									<figure class="image-holder featured-thumbnail <?php echo $mediaType; ?>"><span class="img-box"><?php tz_image($post->ID, 'portfolio-main');?></span></figure>
+									<figure class="image-holder featured-thumbnail <?php echo $mediaType; ?>"><span class="img-box"><?php the_post_thumbnail(array(614,594)); ?></span></figure>
 									<?php break;
 								case "Slideshow": ?>
 									<figure class="image-holder featured-thumbnail <?php echo $mediaType; ?>"><span class="img-box"><?php tz_gallery($post->ID, 'portfolio-main');?></span></figure>

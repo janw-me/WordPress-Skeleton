@@ -49,7 +49,7 @@
 							<figure class="featured-thumbnail">
 								<span class="img-box">
 									<a class="image-wrap touch-item" href="<?php echo $img_url;?>" title="<?php the_title();?>">
-										<img src="<?php echo $image ?>" alt="<?php the_title(); ?>">
+										<?php the_post_thumbnail(array(614,594)); ?>
 										<span class="zoom-icon"></span>
 									</a>
 								</span>
