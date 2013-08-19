@@ -96,10 +96,10 @@
 					<!-- /entry-content -->
 					<nav class="oldernewer single-oldernewer">
 						<?php if( get_previous_post() ) : ?>
-							<div class="older"><?php previous_post_link('%link', __('Vorige')) ?></div>
+							<div class="older"><?php previous_post_link('%link', __('Previous', L10n)) ?></div>
 						<?php endif; ?>
 						<?php if( get_next_post() ) : ?>
-							<div class="newer"><?php next_post_link('%link', __('Volgende')) ?></div>
+							<div class="newer"><?php next_post_link('%link', __('Next', L10n)) ?></div>
 							<?php endif; ?>
 					</nav> <!-- /oldernewer .single-oldernewer -->
 				</div>

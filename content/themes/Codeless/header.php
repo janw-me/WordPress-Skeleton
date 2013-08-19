@@ -243,7 +243,7 @@
 					<p>
 						<?php echo get_post_meta($post->ID, 'ba_textarea_samenvatting', true); ?>
 					</p>
-					<a href="<?php the_permalink() ?>" class="read-more" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php _e('Read More'); ?></a>
+					<a href="<?php the_permalink() ?>" class="read-more" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php _e('Read More', L10n); ?></a>
 				</li>
 			<?php endwhile; ?>
 		</ul></div>

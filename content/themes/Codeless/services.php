@@ -19,9 +19,9 @@
 		
 		if ( ! have_posts() ) : ?>
 			<div id="post-0" class="post error404 not-found">
-				<h2 class="entry-title"><?php _e( 'Not Found', 'theme1958' ); ?></h2>
+				<h2 class="entry-title"><?php _e( 'Not Found', L10n ); ?></h2>
 				<div class="entry-content">
-					<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'theme1958' ); ?></p>
+					<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', L10n ); ?></p>
 					<?php get_search_form(); ?>
 				</div><!-- /entry-content -->
 			</div><!-- /post-0 -->
@@ -95,7 +95,7 @@
 						<div class="folio-desc">
 							<h2><a href="<?php the_permalink(); ?>"><?php $title = the_title('','',FALSE); echo substr($title, 0, 40); ?></a></h2>
 							<div class="excerpt"><?php $excerpt = get_the_excerpt(); echo my_string_limit_words($excerpt,28);?></div>
-							<a href="<?php the_permalink(); ?>" class="read-more"><?php _e('Read more');  ?></a>
+							<a href="<?php the_permalink(); ?>" class="read-more"><?php _e('Read more', L10n);  ?></a>
 						</div>
 					</li>
 					<?php $i++;

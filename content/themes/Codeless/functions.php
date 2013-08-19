@@ -1,5 +1,9 @@
 <?php
 const L10n = 'codeless';
+function L10n_setup() {
+  load_theme_textdomain( L10n, __DIR__ . '/languages/' );
+}
+add_action( 'after_setup_theme', 'L10n_setup', 1 );
 add_image_size( 'medium-overview', 214, 161, true);
 add_image_size( 'gallery-crop', 90, 90, false);
 

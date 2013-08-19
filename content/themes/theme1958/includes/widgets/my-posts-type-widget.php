@@ -105,7 +105,7 @@ class MY_PostsTypeWidget extends WP_Widget {
 				if ( $instance['show_title'] ) : 
 					echo $instance["before_post_title"]; ?>
 						<a class="post-title" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-							<?php if ( $instance['show_title_date'] ) {?>[<?php the_time('m-d-Y'); ?>]<?php }else{?><?php the_title(); ?><?php }?>
+							<?php if ( $instance['show_title_date'] ) {?><?php the_time('m-d-Y'); ?><?php }else{?><?php the_title(); ?><?php }?>
 						</a>
 					<?php echo $instance["after_post_title"];
 				endif; ?>

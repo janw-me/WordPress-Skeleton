@@ -2,7 +2,7 @@
 	<div class="header-title">
 		<h2>
 			<?php
-				_e('Praktijkvoorbeelden', L10n);
+				_e('Practical examples', L10n);
 				echo ": ";
 				$post_terms = wp_get_post_terms($post->ID, 'portfolio_category');
 				echo $post_terms[0]->name;
@@ -23,8 +23,8 @@
 			get_template_part( 'includes/post-formats/standard' );
 		endwhile; else: ?>
 			<div class="no-results">
-				<p><strong><?php echo __('There has been an error.', 'theme1958'); ?></strong></p>
-				<p><?php _e('We apologize for any inconvenience, please', 'theme1958'); ?> <a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>"><?php _e('return to the home page', 'theme1958'); ?></a> <?php _e('or use the search form below.', 'theme1958'); ?></p>
+				<p><strong><?php echo __('There has been an error.', L10n); ?></strong></p>
+				<p><?php _e('We apologize for any inconvenience, please', L10n); ?> <a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>"><?php _e('return to the home page', L10n); ?></a> <?php _e('or use the search form below.', 'theme1958'); ?></p>
 				<?php get_search_form(); /* outputs the default Wordpress search form */ ?>
 			</div><!--no-results-->
 		<?php endif;

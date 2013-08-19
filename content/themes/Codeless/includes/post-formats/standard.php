@@ -4,7 +4,7 @@
 	else $class =''; ?>
 	<header class="entry-header<?php echo $class; ?>">
 		<?php if(!is_singular()) : ?>
-			<h6 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php _e('Permalink to:', 'theme1958');?> <?php the_title(); ?>"><?php the_title(); ?></a></h6>
+			<h6 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php _e('Permalink to:', L10n);?> <?php the_title(); ?>"><?php the_title(); ?></a></h6>
 		<?php else :?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php endif;
@@ -33,7 +33,7 @@
 				$content = get_the_content();
 				echo '<p>' . my_string_limit_words($content,80) . '</p>';
 				?>
-				<a href="<?php the_permalink() ?>" class="read-more"><?php _e('Read more', 'theme1958'); ?></a>
+				<a href="<?php the_permalink() ?>" class="read-more"><?php _e('Read more', L10n); ?></a>
 			</div>
 		<?php else :?>
 			<div class="content">
