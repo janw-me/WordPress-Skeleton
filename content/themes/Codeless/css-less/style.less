@@ -156,7 +156,7 @@ body #content a{
 }
 
 body #content .excerpt{
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 body #content .excerpt,
@@ -261,6 +261,9 @@ ol ol li{
 
 body h6{
 	color: #58585a;
+}
+p {
+	margin-bottom: 10px;
 }
 /*====================================================================================================================*/
 /*== div#container                                                                                 $cont           ==*/
@@ -510,6 +513,9 @@ ul.social-share li{
 	display: inline-block;
 	position: relative;
 }
+ul.social-share li:hover {
+	background-color: #005091;
+}
 
 ul.social-share li a{
 	display: block;
@@ -518,7 +524,6 @@ ul.social-share li a{
 	background: url(@{themeurl}/images/sprite.png) no-repeat;
 	position: absolute;
 }
-
 ul.social-share li a.facebook{
 	background-position: -21px 0;
 	width: 11px;
@@ -602,9 +607,9 @@ body .entry-header.post-meta-true{
 }
 
 .post-holder{
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 	border-bottom: 1px solid #e7e4e3;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 .post-holder.last-child{
@@ -664,11 +669,13 @@ body.home #sidebar{
 
 #sidebar .widget{
 	width: 288px;
-	padding: 11px;
+	padding: 11px 11px 22px 11px;
 	margin: 17px 0 17px 0;
 	background: url(@{themeurl}/images/sidebar-widget.png) no-repeat left bottom;
 }
-
+#sidebar .widget:first-child {
+	margin:0 0 17px 0;
+}
 #sidebar .widget .gform_wrapper span.gform_description{
 	.font-size(15);
 	font-family: 'Lato', sans-serif;
@@ -689,7 +696,7 @@ body.home #sidebar{
 }
 
 #sidebar .widget h2{
-	margin-bottom: 4px;
+	margin-bottom: 15px;
 }
 
 #sidebar .widget .featured-thumbnail{
@@ -727,12 +734,12 @@ body.home #sidebar{
 }
 
 #sidebar .widget ul{
-	margin-bottom: 35px;
+	margin-bottom: 10px;
 }
 
 #sidebar .widget ul li,
 #sidebar .widget ul li a{
-	.font-size(16);
+	.font-size(15);
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	line-height: 30px;
@@ -741,8 +748,13 @@ body.home #sidebar{
 
 #sidebar .widget ul li{
 	position: relative;
-	margin: 0;
+	margin: 0 0 10px 0;
 }
+#sidebar .textwidget ul li {
+	margin:0;
+}
+
+
 /*====================================================================================================================*/
 /*== footer#page-footer                                                                            $footer         ==*/
 /*==================================================================================================================*/
@@ -883,6 +895,7 @@ body.home #sidebar{
 	font-weight: 300;
 	line-height: 32px;
 	color: #58585a;
+	margin-bottom:15px;
 }
 
 .services ul li p{
@@ -941,7 +954,9 @@ body.home #sidebar .widget{
 #gallery .portfolio li a.image-wrap{
 	height: auto;
 }
-
+#gallery .portfolio li h2 {
+	margin-top:0;
+}
 .header-title h2,
 .single-portfolio .header-title h2,
 .tax-portfolio_category .header-title h2,
@@ -1048,13 +1063,18 @@ body .flex-control-paging li a.flex-active{
 body .flex-control-paging li a{
 	background: #808080;
 }
-
+#content #gallery .portfolio li {
+	margin:0 20px 20px 0;
+}
 #content #gallery .portfolio li.nomargin{
 	background: none;
 }
 
 .error404-num{
 	color: #009fdb;
+}
+#page-content li {
+	margin:0;
 }
 /*====================================================================================================================*/
 /*== #page-main / div#content-search                                                              $pageSearch      ==*/
@@ -1208,7 +1228,7 @@ body .gform_wrapper .top_label .gfield_error{
 body .gform_wrapper .gform_footer{
 	margin: 0;
 	height: 32px;
-	padding: 16px 4px 10px 0;
+	padding: 16px 0 10px 0;
 }
 
 #sidebar .gform_wrapper ul li.gfield{
@@ -1224,7 +1244,7 @@ body #content .gform_wrapper .top_label input[type="text"]{
 }
 
 body #sidebar .gform_wrapper input[type="text"]{
-	width: 94.4%;
+	width: 95%;
 }
 /*====================================================================================================================*/
 /*== #page-main / div#content-404                                                                 $page404         ==*/
