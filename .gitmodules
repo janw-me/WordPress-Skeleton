@@ -1,3 +1,6 @@
 [submodule "wp"]
 	path = wp
 	url = git://github.com/WordPress/WordPress.git
+[submodule "content/plugins/wp-slider"]
+	path = content/plugins/wp-slider
+	url = git@github.com:janw-oostendorp/wp-flexbox-slider.git

@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-25 19:42+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gianni Diurno (aka gidibao) <gidibao[at]gmail[dot]com>\n"
+"Language-Team: Gianni Diurno | gidibao.net <gidibao[at]gmail[dot]com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lightview-plus-popup.php:135
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+#: lightview-plus-popup.php:142
+msgid "Portal video"
+msgstr "Portale video"
+
+#: lightview-plus-popup.php:143
+msgid "Local video"
+msgstr "Video locale"
+
+#: lightview-plus-popup.php:144
+msgid "Upload video"
+msgstr "Carica video"
+
+#: lightview-plus-popup.php:145
+msgid "Video URL"
+msgstr "URL video"
+
+#: lightview-plus-popup.php:155
+msgid "Select video portal:"
+msgstr "Seleziona il portale video:"
+
+#: lightview-plus-popup.php:188
+msgid "Insert video ID:"
+msgstr "Inserisci l'ID del video:"
+
+#: lightview-plus-popup.php:202
+#: lightview-plus-popup.php:260
+msgid "Show video without link"
+msgstr "Mostra il video senza il link"
+
+#: lightview-plus-popup.php:208
+#: lightview-plus-popup.php:266
+msgid "Link text:"
+msgstr "Link di testo:"
+
+#: lightview-plus-popup.php:218
+#: lightview-plus-popup.php:276
+msgid "Insert"
+msgstr "Inserisci"
+
+#: lightview-plus-popup.php:220
+#: lightview-plus-popup.php:278
+#: lightview-plus-popup.php:329
+msgid "Cancel"
+msgstr "Cancella"
+
+#: lightview-plus-popup.php:239
+msgid "Select video file:"
+msgstr "Seleziona il file video:"
+
+#: lightview-plus-popup.php:297
+msgid "Local video file:"
+msgstr "File video locale:"
+
+#: lightview-plus-popup.php:307
+msgid "Title:"
+msgstr "Titolo:"
+
+#: lightview-plus-popup.php:317
+msgid "Description:"
+msgstr "Descrizione:"
+
+#: lightview-plus-popup.php:327
+msgid "Upload"
+msgstr "Carica"
+
+#: lightview-plus.php:118
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: lightview-plus.php:119
+msgid "Support"
+msgstr "Supporto"
+
+#: lightview-plus.php:120
+msgid "Donate with PayPal"
+msgstr "Donazioni via Paypal"
+
+#: lightview-plus.php:121
+msgid "Donate with Amazon Wishlist"
+msgstr "Donazioni via Amazon Wishlist"
+
+#: lightview-plus.php:154
+msgid "Notice for:"
+msgstr "Annuncio per:"
+
+#: lightview-plus.php:156
+msgid "Update-Notice for:"
+msgstr "Aggiornamento-annuncio per:"
+
+#: lightview-plus.php:473
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[E' presente un video che non potrà essere mostrato in questo feed."
+
+#: lightview-plus.php:473
+msgid "Visit the blog entry to see the video.]"
+msgstr "Visita l'articolo per poter vedere il video.]"
+
+#: lightview-plus.php:516
+msgid "Video not available"
+msgstr "Video non disponibile"
+
+#: lightview-plus.php:840
+msgid "Options saved."
+msgstr "Le opzioni sono state salvate"
+
+#: lightview-plus.php:851
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Il Lightview Javascript e/o il CSS non sono stati inseriti nella cartella del plugin. Leggi attentamente le istruzioni per l'installazione."
+
+#: lightview-plus.php:856
+msgid "Donation"
+msgstr "Donazioni"
+
+#: lightview-plus.php:861
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested. If you don't have a clue how much you want to spend, the average of the last donations were €8. But every other amount is welcome. Please note, that PayPal takes for every transaction round about €0.50. So every donation below €1 is only a donation to PayPal ;-) Further you have the options to have a look at my amazon wishlist."
+msgstr "Lo sviluppo del plugin Lightview Plus ha richiesto una grande quantità di tempo. Qualora ti fosse stato utile, potresti sostenere il suo sviluppo facendo una piccola donazione. La tua offerta farà sì che io sia maggiormente incentivato nel proseguire il lavoro di sviluppo del plugin includendo di fatto ogni miglioria che mi sia stata suggerita. Nel caso tu non avessi una idea sul quanto donare, sappi che la media si é attestata intorno agli 8 euro comunque, qualsiasi somma é sempre bene accetta. Ti ricordo infine che PayPal trattiene circa €0.50 per ogni transizione quindi, ogni donazione inferiore ad 1 euro sarà una donazione a PayPal! ;-) Volendo, potresti anche dare una occhiata alla mia wishlist su Amazon."
+
+#: lightview-plus.php:862
+msgid "Donate via PayPal!"
+msgstr "Dona via PayPal!"
+
+#: lightview-plus.php:862
+msgid "make a gift with Amazon"
+msgstr "fai un regalo con Amazon"
+
+#: lightview-plus.php:869
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: lightview-plus.php:879
+msgid "Load newest prototype/scriptacolous javascript library version brought with lightview-plus?"
+msgstr "Desideri che sia caricata la versione più recente dei file Prototype/Scriptacolous dalla libreria Javascript fornita con lightview-plus?"
+
+#: lightview-plus.php:881
+msgid "load prototype/scriptacolous javascript Library?"
+msgstr "Desideri che siano caricati i file Prototype/Scriptacolous dalla libreria Javascript?"
+
+#: lightview-plus.php:888
+#: lightview-plus.php:904
+#: lightview-plus.php:921
+#: lightview-plus.php:938
+#: lightview-plus.php:954
+#: lightview-plus.php:978
+#: lightview-plus.php:994
+#: lightview-plus.php:1024
+#: lightview-plus.php:1064
+msgid "yes"
+msgstr "sì"
+
+#: lightview-plus.php:889
+#: lightview-plus.php:905
+#: lightview-plus.php:922
+#: lightview-plus.php:939
+#: lightview-plus.php:955
+#: lightview-plus.php:979
+#: lightview-plus.php:995
+#: lightview-plus.php:1025
+#: lightview-plus.php:1065
+msgid "no"
+msgstr "no"
+
+#: lightview-plus.php:893
+msgid "Please, deactivate this, if you know what you are doing. It loads a version of Prototype and Scriptaculous that works best with lightview"
+msgstr "Disattiva questa funzione qualora non sapessi cosa stai per fare. Questa operazione caricherà la versione dei Prototype e dei Scriptaculous più adeguata per l'utilizzo di lightview"
+
+#: lightview-plus.php:900
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Desideri che siano caricate da Google le librerie Prototype/Scriptacolous?"
+
+#: lightview-plus.php:909
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype and scriptaculous will load."
+msgstr "Puoi scegliere di caricare da Google i prototype ed i scriptaculous in modo tale da avere sempre l'ultima verisone. Diversamente, verranno caricate le versioni locali prototype e scriptaculous."
+
+#: lightview-plus.php:917
+msgid "Activate Lightview for [gallery]?"
+msgstr "Attivare Lightview per [gallery]?"
+
+#: lightview-plus.php:926
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Se attivata, la galleria di WordPress verrà mostrata via Lightview"
+
+#: lightview-plus.php:934
+msgid "Activate Lightview for Videos?"
+msgstr "Desideri attivare la Lightview per i video?"
+
+#: lightview-plus.php:943
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Migliora la funzione video. ATTENZIONE: questa opzione funzionerà solamente nel caso in cui tu NON abbia attivato nessun plugin per poter incorporare i video"
+
+#: lightview-plus.php:950
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Desideri effettuare il backup del Javascript di Lightview durante l'aggiornamento?"
+
+#: lightview-plus.php:959
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Effettua un backup dei file lightview javascript prima di aggiornare. Una volta portata a termine la procedura di aggiornamento alla ultima versione di lightview-plus, sarà necessario copiare il backup dei file javascript nella cartella del plugin. "
+
+#: lightview-plus.php:967
+msgid "Video Options"
+msgstr "Opzioni video"
+
+#: lightview-plus.php:974
+msgid "Show Links under videos?"
+msgstr "Desideri che siano mostrati i link sotto i video?"
+
+#: lightview-plus.php:983
+msgid "Show a link to the original site of the video"
+msgstr "Mostra un collegamento al sito originale del video"
+
+#: lightview-plus.php:990
+msgid "Show a small Link under the Video?"
+msgstr "Desideri che sia mostrato un piccolo link sotto al video?"
+
+#: lightview-plus.php:999
+msgid "If no, it will show a bigger text"
+msgstr "Se non, verrà mostrato un testo più grande"
+
+#: lightview-plus.php:1008
+msgid "Separator"
+msgstr "Separatore"
+
+#: lightview-plus.php:1013
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Definisce il separatore tra il servizio (es. YouTube) ed il tuo commento"
+
+#: lightview-plus.php:1020
+msgid "Show in Feed?"
+msgstr "Mostrare nei feed?"
+
+#: lightview-plus.php:1029
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Scegli se mostrare oppure no il video nei feed. Per il momento, sarà possibile mostrare solamente un link al video"
+
+#: lightview-plus.php:1036
+msgid "Video Preview Width"
+msgstr "Larghezza anteprima video"
+
+#: lightview-plus.php:1041
+msgid "Choose the width of the preview images for the videos"
+msgstr "Scegli la larghezza per le immagini di anteprima dei video"
+
+#: lightview-plus.php:1048
+msgid "Video Width"
+msgstr "Larghezza del video"
+
+#: lightview-plus.php:1053
+msgid "You can choose, what width the video and image have"
+msgstr "Puoi scegliere la dimensione che desideri sia impostata per il video"
+
+#: lightview-plus.php:1060
+msgid "Show Video Debug Infos"
+msgstr "Mostra info debug video"
+
+#: lightview-plus.php:1069
+msgid "Shows video informations, like embed url or image url of the video. Only for debug!"
+msgstr "Mostra informazioni video quali url embed o url immagine del video. Solo per debug!"
+
+#: lightview-plus.php:1077
+msgid "Update Options »"
+msgstr "Aggiorna le opzioni »"
+

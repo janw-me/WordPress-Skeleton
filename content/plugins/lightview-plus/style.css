@@ -1,0 +1,28 @@
+.plus_previewimage {
+	position: relative;
+	display: block;
+}
+
+.plus_playbutton {
+	opacity: 0.8;
+	/* for IE5-7 */
+	filter: alpha(opacity=80);
+	/* for IE8 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	position: absolute;
+	/*background: rgba(0, 0, 0, 0.746094); */
+	color: white; 
+	/*display: table-cell;*/
+	font: normal normal normal 75px/65px Helvetica;
+	text-align: center;
+	height: 100px; 
+	width: 100px;
+	-webkit-border-bottom-left-radius: 5px 5px; 
+	-webkit-border-bottom-right-radius: 5px 5px; 
+	-webkit-border-top-left-radius: 5px 5px; 
+	-webkit-border-top-right-radius: 5px 5px;
+	-moz-border-radius-bottomleft: 5px 5px;
+	-moz-border-radius-bottomright: 5px 5px;
+	-moz-border-radius-topleft: 5px 5px;
+	-moz-border-radius-topright: 5px 5px;
+}

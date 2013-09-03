@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-10 19:54+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Thorsten <thorsten@puzich.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Thorsten/Dropbox/Source/lightview-plus\n"
+"X-Poedit-SearchPath-1: /Users/Thorsten/Dropbox/Source/lightview-plus/libs\n"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:40
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:52
+msgid "Select video portal:"
+msgstr "Wähle Video Portal"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:66
+msgid "Insert video ID:"
+msgstr "Gebe Video ID ein"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:80
+msgid "Show video without link"
+msgstr "Video ohne Link anzeigen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:86
+msgid "Link text:"
+msgstr "Linktext:"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:96
+msgid "Insert"
+msgstr "Einfügen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus-popup.php:98
+msgid "Cancel"
+msgstr "Abbruch"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:124
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:458
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:125
+msgid "Support"
+msgstr "Hilfe"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:126
+msgid "PayPal"
+msgstr "PayPal"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:127
+#, fuzzy
+msgid "Amazon Wishlist"
+msgstr "Spenden über die Amazon Wunschliste"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:156
+msgid "Notice for:"
+msgstr "Nachricht für:"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:158
+msgid "Update-Notice for:"
+msgstr "Update-Nachricht für:"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:331
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See <a href=\"http://www.puzich.com/wordpress-plugins/lightview-en\">installation instructions for further details</a>. If you have installed an version prior 3.0 of lightview. Please download and copy the new lightview 3.0 or higher in the lightview plus directory. <a href=\"http://projects.nickstakenburg.com/lightview/download\">Please download the new version of lightview here</a>. To get rid of this message, delete all the directories /images, /css and /js in the plugin directory and copy the new lightview into the plugin directory!"
+msgstr "Lightview Javascript und/oder die CSS Dateien wurden nicht in das Plugin Verzeichnis kopiert. Weiteres siehe <a href=\"http://www.puzich.com/wordpress-plugins/lightview\">in den Installations-Anweisungen</a>. Falls du eine ältere Lightview Version kleiner Version 3.0 installiert hast, dann downloade und kopiere das neue Lightview 3.0 oder höher in das Lightview Plus Plugin Verzeichnis. <a href=\"http://projects.nickstakenburg.com/lightview/download\">Bitte downloade the neue Lightview Version hier</a>. Um diese Nachricht los zu werden, lösche alle Verzeichnisse /images, css and /js in dem Plugin Verzeichnis und kopiere nicht neue Lightview Javascript Version dort hinein."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:449
+msgid "Settings saved."
+msgstr "Optionen gesichert."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:462
+#, fuzzy
+msgid "Load jQuery Library from Google"
+msgstr "Lade Prototype & Scriptacolous Javascript Bibliotheken von Google"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:463
+#, fuzzy
+msgid "Choose if you want to load jQuery from Google and get it always in the newest version. Otherwise the local version of jQuery will load"
+msgstr "Wenn du Prototype und Scriptaculous von Google laden möchtest um es immer in der aktuellsten Version zu erhalten. Andernfalls wird eine lokale Version von Prototype und Scriptaculous geladen."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:468
+msgid "Activate Lightview for [gallery]?"
+msgstr "Aktiviere Lightview für [gallery]?"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:469
+#, fuzzy
+msgid "If activated, it shows the wordpress gallery with Lightview"
+msgstr "Wenn aktiviert, zeigt es die Wordpress Gallerie mit Lightview"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:474
+msgid "Backup Lightview Javascript during Update"
+msgstr "Backup von Lightview Javascript während des Updates erstellen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:475
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory"
+msgstr "Erstellt ein Backup der Lightview Javascript Dateien. Nach einem Upgrade der Lightview-Plus Version ist es nicht mehr nötig, die Javascript Dateien zurück in das Plugin-Verzeichnis zu kopieren"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:480
+msgid "Activate Lightview for Videos"
+msgstr "Aktiviere Lightview für Videos"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:481
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Implementiert die Video Funktion. ACHTUNG: Dies funktioniert nur, wenn Sie nicht das Embedded Video Plugin aktiviert haben"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:485
+msgid "Show Links under videos"
+msgstr "Zeige Links unter den Videos"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:486
+msgid "Show a link to the original site of the video"
+msgstr "Zeigt einen Link zur originalen Seite des Videos"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:490
+msgid "Show a small Link under the Video"
+msgstr "Zeigt den Link unter dem Video etwas kleiner an"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:491
+msgid "The video link will be shown smaller"
+msgstr "Der Link unter dem Video wird kleiner angezeigt"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:495
+msgid "Separator"
+msgstr "Trennzeichen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:496
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Legt den Trenner zwischen dem Service (z. B. YouTube) und deinem Kommentar fest"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:500
+msgid "Video Preview Width (in px)"
+msgstr "Video Breite des Vorschaubildes (in px)"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:501
+msgid "Choose the width of the preview images for the videos"
+msgstr "Wähle die Größe des Vorschaubildes für die Videos"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:505
+msgid "Video Width (in px)"
+msgstr "Video Breite (in px)"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:506
+msgid "You can choose, what width the video and image have"
+msgstr "Du kannst auswählen, welche Breite das Video und das Vorschaubild haben sollen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:511
+msgid "Show all videos with the embed codes with lightview"
+msgstr "Öffne alle Videos mit ihrem Embed Code mit Lightview"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:512
+msgid "Replaces the embed code of vimeo and youtube videos to show them with lightview"
+msgstr "Ersetzt den Embed Code der Vimeo und Youtube Videos um diese mit Lightview anzuzeigen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:516
+#, fuzzy
+msgid "Show video in feed"
+msgstr "Im Feed anzeigen?"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:517
+msgid "Shows the video in the feed. Otherwise the preview image of the video is shown, with a link to your website."
+msgstr "Zeigt das Video direkt im Feed. Sonst wird ein Vorschaubild des Videos gezeit, mit einem Link zur Webseite."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:521
+msgid "Show Video Debug Infos"
+msgstr "Zeige Video Debug Infos"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:522
+msgid "Shows video informations, like embed url or image url of the video. Only for debug!"
+msgstr "Zeigt Video Informationen, wie Embed URL oder Bild URL des Videos. Nur für Debug Zwecke!"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:527
+msgid "Skin for Lightview"
+msgstr "Lightview-Skin"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:528
+msgid "Choose the Skin of Lightview."
+msgstr "Suche das Skin von Lightview aus, um das Aussehen anzupassen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:538
+msgid "Customize background"
+msgstr "Individualisiere den Hintergrund"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:542
+msgid "Background Color"
+msgstr "Hintergrund Farbe"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:543
+msgid "Select the color of the background"
+msgstr "Suche die Farbe des Hintergrunds aus"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:547
+msgid "Background Opacity"
+msgstr "Deckkraft des Hintergrunds"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:548
+msgid "Choose, how much the background will shine through"
+msgstr "Wie stark soll der Hintergrund durchscheinen?"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:559
+msgid "Customize border"
+msgstr "Individualisiere Rahmen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:563
+msgid "Border Color"
+msgstr "Farbe des Rahmens"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:564
+msgid "Select the color of the border around lightview"
+msgstr "Suche dir die Farbe für den Rahmen um Lightview aus"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:568
+msgid "Border Size"
+msgstr "Rahmengröße"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:569
+msgid "Select thick the border will be in pixel"
+msgstr "Suche dir die dicke des Rahmens in Pixel aus"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:577
+msgid "Border Opacity"
+msgstr "Deckkraft des Rahmens"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:578
+msgid "Choose, how much the background will shine through the border"
+msgstr "Suche dir aus, wie stark der Hintergrund durch den Rahmen scheinen soll"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:586
+msgid "Radius of the border"
+msgstr "Radius des Rahmens"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:587
+msgid "Sets the radius of the border"
+msgstr "Definiert den Radius des Rahmens"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:597
+msgid "Sets position and options of the controls"
+msgstr "Bestimme die Position der Kontrollen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:598
+#, fuzzy
+msgid "Sets position of the controls. The default is relative which positions the controls relative to the window, top sets the controls fixed at the top of the screen"
+msgstr "Setzt die Position der Kontrollen. Standard ist \"relative\" was die Position relativ zum Fenster setzt, \"top\" setzt die Kontrollen fest oberhalb des Bildschirms"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:607
+msgid "Customize overlay"
+msgstr "Indiviualisiere das Overlay"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:611
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:612
+msgid "Sets the color of the overlay"
+msgstr "Definiert die Farbe des Overlays"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:616
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:617
+msgid "Sets the opacity of the overlay"
+msgstr "Setzt die Deckkraft des Overlays"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:628
+msgid "Activate shadow around the window"
+msgstr "Aktiviert Schatten um das Lightview Fenster"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:629
+msgid "Defines if you want a shadow around the lightview window"
+msgstr "Definiert ob du Schatten um das Lightview Fenster haben möchtest"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:632
+msgid "Shadow color"
+msgstr "Schattenfarbe"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:633
+msgid "Set the shadow underneath the window"
+msgstr "Setzt den Schatten unter dem Fenster"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:637
+msgid "Shadow blur"
+msgstr "Schattenflecken"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:638
+msgid "Style the shadow"
+msgstr "Stil des Schattens"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:646
+msgid "Shadow Opacity"
+msgstr "Deckkraft des Schattens"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:647
+msgid "Choose opacity of the shadow"
+msgstr "Suche dir die Deckkraft des Schattens aus"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:657
+msgid "Save Changes"
+msgstr "Speichere Änderungen"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:663
+msgid "Donation"
+msgstr "Spenden"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:666
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested. If you don't have a clue how much you want to spend, the average of the last donations were €8. But every other amount is welcome. Please note, that PayPal takes for every transaction round about €0.50. So every donation below €1 is only a donation to PayPal ;-) Further you have the options to have a look at my amazon wishlist."
+msgstr "Lightview Plus zu entwickeln hat sehr viel Zeit und Anstrengungen gekostet. Wenn es für dich nützlich ist, dann kannst du die Entwicklungsarbeit unterstützen, wenn du einen kleinen Beitrag spendest. Dies wäre Ansporn für mich weiterhin zu entwickeln, weiter unzählige Stunden an Support zu leisten und vorgeschlagene Erweiterungen zu implementieren. Wenn du keine Vorstellung hast, wieviel du spenden möchtest, dann sei erwähnt, dass der Durchschnitt der letzten Spenden bei ca. €8 lag. Aber jeder andere Spendenbetrag wird freudig entgegengenommen. Aber anzumerken ist, dass PayPal für jede Zahlung ungefähr €0,50 einbehält, d. h. jede Spende unter €1 ist nur eine Spende an PayPal ;-) Du kannst mir aber auch einen Wunsch über meine Amazon Wunschliste erfüllen."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:667
+msgid "Donate via PayPal!"
+msgstr "Spende via PayPal!"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/lightview-plus.php:667
+msgid "make a gift with Amazon"
+msgstr "Mache ein Geschenk mit Amazon"
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/libs/core.php:337
+msgid "There is a video that cannot be displayed in this feed. "
+msgstr "Dieses Video kann nicht im Feed dargestellt werden."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/libs/core.php:337
+msgid "Visit the blog entry to see the video."
+msgstr "Besuche den Blog um das Video zu sehen."
+
+#: /Users/Thorsten/Dropbox/Source/lightview-plus/libs/core.php:424
+msgid "Video not available"
+msgstr "Video ist nicht verfügbar"
+
+#~ msgid "Donate with PayPal"
+#~ msgstr "Spende via PayPal"
+
+#~ msgid ""
+#~ "Lightview Javascript and/or CSS isn't copied to the plugin directory. See "
+#~ "installation instructions for further details."
+#~ msgstr ""
+#~ "Lightview Javascript und/prder CSS wurden nicht in das Plugin Verzeichnis "
+#~ "kopiert. Siehe Installations Dokumente für weitere Details."
+
+#~ msgid ""
+#~ "Load prototype and scriptacolous libraries brought with lightview plus"
+#~ msgstr ""
+#~ "Lade Prototype/Scriptacolous Javascript Bibliothek, welche mit Lightview-"
+#~ "Plus geliefert wird"
+
+#~ msgid ""
+#~ "Please, deactivate this, if you know what you are doing. It loads a "
+#~ "version of Prototype and Scriptaculous that works best with lightview"
+#~ msgstr ""
+#~ "Deaktiviere diese Einstellung nur, wenn du weißt, was du tust. Dies lädt "
+#~ "eine Version von Prototype und Scriptaculous, welche gut mit Lightview "
+#~ "funktioniert."
+
+#~ msgid "Portal video"
+#~ msgstr "Portal Video"
+
+#~ msgid "Local video"
+#~ msgstr "Lokales Video"
+
+#~ msgid "Upload video"
+#~ msgstr "Upload Video"
+
+#~ msgid "Video URL"
+#~ msgstr "Video URL"
+
+#~ msgid "Select video file:"
+#~ msgstr "Wähle Video Datei"
+
+#~ msgid "Local video file:"
+#~ msgstr "Lokale Video Datei"
+
+#~ msgid "Title:"
+#~ msgstr "Titel:"
+
+#~ msgid "Description:"
+#~ msgstr "Beschreibung:"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "load prototype/scriptacolous javascript Library?"
+#~ msgstr "Lade Prototype/Scriptacolous Javascript Bibliothek?"
+
+#~ msgid "yes"
+#~ msgstr "Ja"
+
+#~ msgid "no"
+#~ msgstr "Nein"
+
+#~ msgid "Video Options"
+#~ msgstr "Video Optionen"
+
+#~ msgid "If no, it will show a bigger text"
+#~ msgstr "Falls nein, wird ein grösserer Text angezeigt"
+
+#~ msgid ""
+#~ "You can choose, if you want to show the video in the feed. Currently, it "
+#~ "is only possible to show a link to the video"
+#~ msgstr ""
+#~ "Du kannst auswählen, ob du das Video im Feed anzeigen möchtest. Im Moment "
+#~ "ist es nur möglich einen Link im Feed anzuzeigen."
+
+#~ msgid "Update Options »"
+#~ msgstr "Speichern »"

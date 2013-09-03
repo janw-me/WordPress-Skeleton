@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 22:01+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus\n"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:117
+msgid "Lightview Plus"
+msgstr "Lightview Plus"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:137
+msgid "Select video portal:"
+msgstr "Выберите видеопортал "
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:168
+msgid "Insert video ID:"
+msgstr "Вставить Video ID"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:182
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:240
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:338
+msgid "Show video without link"
+msgstr "Показать видео без ссылки"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:188
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:246
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:344
+msgid "Link text:"
+msgstr "Текст ссылки:"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:198
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:256
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:353
+msgid "Insert"
+msgstr "Вставить"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:200
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:258
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:309
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:355
+msgid "Cancel"
+msgstr "Отмена"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:219
+msgid "Select video file:"
+msgstr "Выберите видео"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:277
+msgid "Local video file:"
+msgstr "Локальный видеофайл"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:287
+msgid "Title:"
+msgstr "Заглавие:"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:297
+msgid "Description:"
+msgstr "Описание:"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:307
+msgid "Upload"
+msgstr "Загрузка"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus-popup.php:324
+msgid "Insert video URL:"
+msgstr "Вставить ссылку на видео:"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:377
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[Это видео, которое не отображается в ленте."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:377
+msgid "Visit the blog entry to see the video.]"
+msgstr "Посетите блог, чтобы посмотреть видео.]"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:542
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:553
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Lightview Javascript и/или CSS не скопированы в директорию плагинов. Спотрите инструкцию по установке."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:558
+msgid "Donation"
+msgstr "Пожертвование"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:563
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation of $8. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested."
+msgstr "Lightview Плюс требует много времени и усилий для развития. Если это было полезно для вас, то вы можете поддержать такое развитие событий, сделав небольшое пожертвование в $8. Это будет действовать как стимул для меня в развитии, обеспечивая бесчисленные часы поддержки, в том числе и любые аксессуары, которые предлагаются. "
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:564
+msgid "Donate via PayPal!"
+msgstr "Пожертвовть через PayPal!"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:571
+msgid "General Settings"
+msgstr "Главные настройки"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:579
+msgid "Load Prototype/Scriptacolous Javascript Library?"
+msgstr "Загрузить библиотеку Prototype/Scriptacolous Javascript?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:583
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:599
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:616
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:633
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:649
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:673
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:689
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:719
+msgid "yes"
+msgstr "да"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:584
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:600
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:617
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:634
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:650
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:674
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:690
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:720
+msgid "no"
+msgstr "нет"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:588
+msgid "Please, deactivate this, if you know what you are doing. It loads a compressed version of Prototype and Scriptaculous"
+msgstr "Отключите это, если знаете, что делаете. Это сжатая версия Prototype и Scriptaculous"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:595
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "Загрузить Prototype & Scriptacolous библиотеки из Google?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:604
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype 1.6.0.3 and scriptaculous 1.8.2 will load."
+msgstr "Выберите, если вы хотите загружать prototype и scriptaculous из Google, и получать его всегда в новейшей версии. В противном случае локальные версии prototype 1.6.0.3 и scriptaculous  1.8.2 будут загружаться ."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:612
+msgid "Activate Lightview for [gallery]?"
+msgstr "Активировать Lightview для [gallery]?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:621
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "Если активировано, это показывает Wordpress галерею с lightview"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:629
+msgid "Activate Lightview for Videos?"
+msgstr "Активировать Lightview for Videos?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:638
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "Реализует видео функции. ВНИМАНИЕ: Это работает только, если у вас не активирован встроенный видео плагин "
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:645
+msgid "Backup Lightview Javascript during Update?"
+msgstr "Резервное копирование Lightview Javascript во время обновления?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:654
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "Резервное копирование на lightview JavaScript файлов по причине обновления. После обновления к новой lightview-plus  версии нет необходимости копировать JavaScript файлов в директорию плагинов."
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:662
+msgid "Video Options"
+msgstr "настройки видео"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:669
+msgid "Show Links under videos?"
+msgstr "Показывать ссылки рядом с видео?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:678
+msgid "Show a link to the original site of the video"
+msgstr "Показывать ссылки на оригинальный сайт рядом с видео?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:685
+msgid "Show a small Link under the Video?"
+msgstr "Показывать маленькие ссылки рядом с видео?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:694
+msgid "If no, it will show a bigger text"
+msgstr "Если нет, показывать крупный текст"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:703
+msgid "Separator"
+msgstr "Разделитель"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:708
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "Определяет разделитель между службой (например YouTube), и вашим комментарием"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:715
+msgid "Show in Feed?"
+msgstr "Показывать в ленте?"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:724
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "Вы должны выбрать, если нужно показывать видео в ленте. Сейчас невозможно показывать ссылку на видео"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:731
+msgid "Video Width"
+msgstr "Ширина видео"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:736
+msgid "You can choose, what width the video and image have"
+msgstr "Вы должный выбрать, какую ширину имеют видео и изображение"
+
+#: /Users/Thorsten/Sites/wp27/wp-content/plugins/lightview-plus/lightview-plus.php:743
+msgid "Update Options »"
+msgstr "Обновить настройки »"
+

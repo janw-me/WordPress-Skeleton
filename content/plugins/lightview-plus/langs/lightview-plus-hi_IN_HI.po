@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightview Plus in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-25 19:42+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: shivangi <shivangi@outshinesolutions.com>\n"
+"Language-Team: Team Outshine <ash.pr@outshinesolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hindi\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lightview-plus-popup.php:135
+msgid "Lightview Plus"
+msgstr "lightview प्लस"
+
+#: lightview-plus-popup.php:142
+msgid "Portal video"
+msgstr "पोर्टल वीडियो"
+
+#: lightview-plus-popup.php:143
+msgid "Local video"
+msgstr "स्थानीय वीडियो"
+
+#: lightview-plus-popup.php:144
+msgid "Upload video"
+msgstr "वीडियो अपलोड"
+
+#: lightview-plus-popup.php:145
+msgid "Video URL"
+msgstr "वीडियो URL"
+
+#: lightview-plus-popup.php:155
+msgid "Select video portal:"
+msgstr "वीडियो पोर्टल चयन करें :"
+
+#: lightview-plus-popup.php:188
+msgid "Insert video ID:"
+msgstr "वीडियो आईडी डालें:"
+
+#: lightview-plus-popup.php:202
+#: lightview-plus-popup.php:260
+msgid "Show video without link"
+msgstr "वीडियो लिंक के बिना दिखाएँ"
+
+#: lightview-plus-popup.php:208
+#: lightview-plus-popup.php:266
+msgid "Link text:"
+msgstr "लिंक पाठ:"
+
+#: lightview-plus-popup.php:218
+#: lightview-plus-popup.php:276
+msgid "Insert"
+msgstr "सम्मिलित करें"
+
+#: lightview-plus-popup.php:220
+#: lightview-plus-popup.php:278
+#: lightview-plus-popup.php:329
+msgid "Cancel"
+msgstr "रद्द करना"
+
+#: lightview-plus-popup.php:239
+msgid "Select video file:"
+msgstr "वीडियो फ़ाइल चयन करें :"
+
+#: lightview-plus-popup.php:297
+msgid "Local video file:"
+msgstr "स्थानीय वीडियो फ़ाइल:"
+
+#: lightview-plus-popup.php:307
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: lightview-plus-popup.php:317
+msgid "Description:"
+msgstr "विवरण:"
+
+#: lightview-plus-popup.php:327
+msgid "Upload"
+msgstr "अपलोड"
+
+#: lightview-plus.php:118
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: lightview-plus.php:119
+msgid "Support"
+msgstr "समर्थन"
+
+#: lightview-plus.php:120
+msgid "Donate with PayPal"
+msgstr "Paypal के साथदान"
+
+#: lightview-plus.php:121
+msgid "Donate with Amazon Wishlist"
+msgstr "अमेज़न विशलिस्ट साथ दान"
+
+#: lightview-plus.php:154
+msgid "Notice for:"
+msgstr "नोटिस"
+
+#: lightview-plus.php:156
+msgid "Update-Notice for:"
+msgstr "सूचना लिए अपडेट:"
+
+#: lightview-plus.php:473
+msgid "[There is a video that cannot be displayed in this feed. "
+msgstr "[वहाँ एक वीडियो कि इस फ़ीड में प्रदर्शित नहीं किया जा सकता है."
+
+#: lightview-plus.php:473
+msgid "Visit the blog entry to see the video.]"
+msgstr "यात्रा ब्लॉग प्रविष्टि के लिए वीडियो देखें.]"
+
+#: lightview-plus.php:516
+msgid "Video not available"
+msgstr "वीडियो उपलब्ध नहीं है "
+
+#: lightview-plus.php:840
+msgid "Options saved."
+msgstr "विकल्प बचाया."
+
+#: lightview-plus.php:851
+msgid "Lightview Javascript and/or CSS isn't copied to the plugin directory. See installation instructions for further details."
+msgstr "Lightview जावास्क्रिप्ट और / या सीएसएस प्लगइन निर्देशिका में प्रतिलिपि नहीं बनाई है. अधिक जानकारी के लिए स्थापना निर्देश देखें."
+
+#: lightview-plus.php:856
+msgid "Donation"
+msgstr "दान"
+
+#: lightview-plus.php:861
+msgid "Lightview Plus has required a great deal of time and effort to develop. If it's been useful to you then you can support this development by making a small donation. This will act as an incentive for me to carry on developing it, providing countless hours of support, and including any enhancements that are suggested. If you don't have a clue how much you want to spend, the average of the last donations were €8. But every other amount is welcome. Please note, that PayPal takes for every transaction round about €0.50. So every donation below €1 is only a donation to PayPal ;-) Further you have the options to have a look at my amazon wishlist."
+msgstr "Lightview प्लस समय और विकसित करने के प्रयास का एक बड़ा सौदा की आवश्यकता है. यदि यह आप के लिए उपयोगी हो गया है तो आप एक छोटा सा दान बनाने द्वारा इस विकास का समर्थन कर सकते हैं. यह मुझे इसे विकसित करने पर ले जाने के लिए के लिए एक प्रोत्साहन के रूप कार्य , समर्थन के अनगिनत घंटे प्रदान, और सुझाव दिया है जो किसी संवर्द्धन सहित जाएगा. यदि आप आप कितना खर्च करना चाहते हैं एक सुराग नहीं है, पिछले दान की औसत 8 € थे. लेकिन हर दूसरे राशि का स्वागत है. कृपया ध्यान दें जो पेपैल, 0.50 € के बारे में हर लेन - देन दौर के लिए लेता है. 1 € नीचे तो हर दान केवल पेपैल;-) के लिए एक दान है इसके अलावा आप अपने अमेज़न इच्छा सूची पर एक नज़र है विकल्प हैं."
+
+#: lightview-plus.php:862
+msgid "Donate via PayPal!"
+msgstr "Paypal के माध्यम सेदान!"
+
+#: lightview-plus.php:862
+msgid "make a gift with Amazon"
+msgstr "अमेज़न के साथ एक उपहार है"
+
+#: lightview-plus.php:869
+msgid "General Settings"
+msgstr "General Settings"
+
+#: lightview-plus.php:879
+msgid "Load newest prototype/scriptacolous javascript library version brought with lightview-plus?"
+msgstr "लोड नवीनतम प्रोटोटाइप / scriptacolous जावास्क्रिप्ट पुस्तकालय संस्करण lightview से अधिक के साथ लाया?"
+
+#: lightview-plus.php:881
+msgid "load prototype/scriptacolous javascript Library?"
+msgstr "प्रोटोटाइप / scriptacolous जावास्क्रिप्ट पुस्तकालय लोड."
+
+#: lightview-plus.php:888
+#: lightview-plus.php:904
+#: lightview-plus.php:921
+#: lightview-plus.php:938
+#: lightview-plus.php:954
+#: lightview-plus.php:978
+#: lightview-plus.php:994
+#: lightview-plus.php:1024
+#: lightview-plus.php:1064
+msgid "yes"
+msgstr "हां"
+
+#: lightview-plus.php:889
+#: lightview-plus.php:905
+#: lightview-plus.php:922
+#: lightview-plus.php:939
+#: lightview-plus.php:955
+#: lightview-plus.php:979
+#: lightview-plus.php:995
+#: lightview-plus.php:1025
+#: lightview-plus.php:1065
+msgid "no"
+msgstr "नहीं"
+
+#: lightview-plus.php:893
+msgid "Please, deactivate this, if you know what you are doing. It loads a version of Prototype and Scriptaculous that works best with lightview"
+msgstr "कृपया, यह निष्क्रिय करने के लिए, अगर आपको पता है कि तुम क्या कर रहे हैं. यह प्रोटोटाइप और Scriptaculous का एक संस्करण जो lightview साथ सबसे अच्छा काम करता है"
+
+#: lightview-plus.php:900
+msgid "Load Prototype & Scriptacolous Libraries from Google?"
+msgstr "प्रोटोटाइप और गूगल से हुई Scriptacolous पुस्तकालय लोड?"
+
+#: lightview-plus.php:909
+msgid "Choose if you want to load prototype and scriptaculous from Google and get it always in the newest version. Otherwise the local versions of prototype and scriptaculous will load."
+msgstr "चुनें अगर आप गूगल से हुई प्रोटोटाइप और scriptaculous लोड और यह नवीनतम संस्करण में हमेशा करना चाहते हैं . वरना प्रोटोटाइप और scriptaculous के स्थानीय संस्करण लोड होगा."
+
+#: lightview-plus.php:917
+msgid "Activate Lightview for [gallery]?"
+msgstr "[गैलरी] Lightview सक्रिय?"
+
+#: lightview-plus.php:926
+msgid "If activated, it shows the wordpress gallery with lightview"
+msgstr "अगर सक्रिय , यह lightview साथ WordPress के गैलरी पता"
+
+#: lightview-plus.php:934
+msgid "Activate Lightview for Videos?"
+msgstr "वीडियो सक्रिय Lightview?"
+
+#: lightview-plus.php:943
+msgid "Implements the video function. ATTENTION: It only works, if you do not have the embedded video plugin activated"
+msgstr "वीडियो समारोह इम्प्लीमेन्ट्स. ध्यान दें: यह केवल काम करता है, अगर आप एम्बेडेड वीडियो प्लगिन सक्रिय नहीं है"
+
+#: lightview-plus.php:950
+msgid "Backup Lightview Javascript during Update?"
+msgstr "अपडेट दौरान Lightview जावास्क्रिप्ट बैकअप ?"
+
+#: lightview-plus.php:959
+msgid "Backups the lightview javascript files for upgrade-reasons. After uprading to a new lightview-plus version, it is needless to copy the javascript files back in the plugin directory. "
+msgstr "उन्नयन के कारणों के लिए lightview जावास्क्रिप्ट फ़ाइलें बैकअप. Uprading बाद एक नया संस्करण lightview से अधिक, यह जावास्क्रिप्ट फ़ाइलों की प्रतिलिपि बनाने के प्लगइन निर्देशिका में वापस जरूरत है."
+
+#: lightview-plus.php:967
+msgid "Video Options"
+msgstr "वीडियो विकल्प"
+
+#: lightview-plus.php:974
+msgid "Show Links under videos?"
+msgstr "वीडियो के तहत लिंक दिखाएँ?"
+
+#: lightview-plus.php:983
+msgid "Show a link to the original site of the video"
+msgstr "वीडियो के मूल साइट के लिए एक लिंक दिखाएँ"
+
+#: lightview-plus.php:990
+msgid "Show a small Link under the Video?"
+msgstr "वीडियो के अंतर्गत एक छोटे से लिंक ?"
+
+#: lightview-plus.php:999
+msgid "If no, it will show a bigger text"
+msgstr "यदि नहीं, यह एक बड़ा पाठ दिखाई देगा"
+
+#: lightview-plus.php:1008
+msgid "Separator"
+msgstr "विभाजक"
+
+#: lightview-plus.php:1013
+msgid "Defines the separator between the service (eg. YouTube) and your comment"
+msgstr "सेवा (जैसे यूट्यूब) और अपनी टिप्पणी के बीच विभाजक को परिभाषित करता है"
+
+#: lightview-plus.php:1020
+msgid "Show in Feed?"
+msgstr "फ़ीड में दिखाएँ?"
+
+#: lightview-plus.php:1029
+msgid "You can choose, if you want to show the video in the feed. Currently, it is only possible to show a link to the video"
+msgstr "आप चुनते हैं, अगर आप फ़ीड में वीडियो दिखाने चाहते हो सकता है. वर्तमान में, यह केवल संभव है वीडियो के लिए एक लिंक दिखा"
+
+#: lightview-plus.php:1036
+msgid "Video Preview Width"
+msgstr "वीडियो पूर्वावलोकन चौड़ाई"
+
+#: lightview-plus.php:1041
+msgid "Choose the width of the preview images for the videos"
+msgstr "वीडियो के लिए पूर्वावलोकन छवियों की चौड़ाई चुनें"
+
+#: lightview-plus.php:1048
+msgid "Video Width"
+msgstr "वीडियो चौड़ाई"
+
+#: lightview-plus.php:1053
+msgid "You can choose, what width the video and image have"
+msgstr "आप चुनते हैं, क्या चौड़ाई वीडियो और छवि कर सकते हैं"
+
+#: lightview-plus.php:1060
+msgid "Show Video Debug Infos"
+msgstr "वीडियो डीबग Infos"
+
+#: lightview-plus.php:1069
+msgid "Shows video informations, like embed url or image url of the video. Only for debug!"
+msgstr "एम्बेड यूआरएल या वीडियो की छवि यूआरएल की तरह वीडियो informations, दिखाता . केवल डिबग के लिए!"
+
+#: lightview-plus.php:1077
+msgid "Update Options »"
+msgstr "विकल्प अपडेट »"
+
