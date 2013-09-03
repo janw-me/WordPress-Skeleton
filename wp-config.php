@@ -1,5 +1,6 @@
 <?php
-$enviroment = getenv( 'APP_ENV' ); // set in the Vhost with: SetEnv APP_ENV development
+// set with: SetEnv APP_ENV development. In a vhost or a higher .htaccess
+$enviroment = getenv( 'APP_ENV' );
 
 if ( $enviroment == 'development' ) {
 	// Database
@@ -35,7 +36,7 @@ if ( $enviroment == 'development' ) {
 // DB
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
-$table_prefix = 'wp_'; // please change
+$table_prefix = 'wp_'; // please change with 2-3 random characters
 // URL and dirs
 define( 'WP_SITEURL', WP_HOME . '/wp' );
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
@@ -51,7 +52,7 @@ define( 'SECURE_AUTH_SALT', '%%' );
 define( 'LOGGED_IN_SALT', '%%' );
 define( 'NONCE_SALT', '%%' );
 
-define( 'WPLANG', '' ); // default EN for Dutch: nl_NL
+define( 'WPLANG', 'nl_NL' ); // leave empty for English
 // Auto save and Revisions
 define( 'AUTOSAVE_INTERVAL', 300 ); // seconds
 define( 'WP_POST_REVISIONS', 10 );
