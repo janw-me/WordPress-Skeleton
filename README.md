@@ -1,25 +1,37 @@
-# WordPress Skeleton
+# WordPress Skeleton #
 
-This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!
+## Downloading This repository ##
+You can get this to work in two ways, via `.git` or download it manually
 
-## Assumptions
+### Donwloading via Git ###
+In the webroot run:
 
-* WordPress as a Git submodule in `/wp/`
-* Custom content directory in `/content/` (cleaner, and also because it can't be in `/wp/`)
-* `wp-config.php` in the root (because it can't be in `/wp/`)
+````git clone https://github.com/janw-oostendorp/WordPress-Skeleton.git .````
 
-## Steps to get this working
+This will download the base, next we download the WordPress submodule.
 
-in the wp-config.php
+````git submodule update --init````
 
-* add a `development` enviroment to your vhost with the folloing line:  
-  `SetEnv APP_ENV development`
-* For development you can set the following:
-  * database: user, pass, DB name and (local)host
-  * FTP: user, pass, host/IP
-  * The url of the home page.
-* change the `$table_prefix` vairable to something else.
-* Define the security keys :https://api.wordpress.org/secret-key/1.1/salt
-* You might want to change the `WPLANG` constat for [translations][1]
+If needed add your own remote repository
 
-[1]: http://codex.wordpress.org/WordPress_in_Your_Language
+````git remote rm origin````
+````git remote add origin YOUR_REPOSITORY.URL/````
+
+### Manual download ###
+Download the [zip](https://github.com/janw-oostendorp/WordPress-Skeleton/archive/master.zip) and unzip it in the webroot. Download [Wordpress](http://wordpress.org/latest.zip) unzip it in the `/wp` folder.
+
+## How to install ##
+After downloading you can continue to install WordPress
+1) Copy `local-config.sample.php` and rename it to `local-config.php`
+2) Add the database constants and the domain
+3) In `wp-config.php` Edit the `$table_prefix`
+4) add the `*_KEY` constants which can be generated [here](https://api.wordpress.org/secret-key/1.1/salt)
+5) open your website and continue with the famous 5 minute install.
+
+## Benefits ##
+
+- WordPress is in it's own folder `/wp`.
+- Webroot only has two folders `/wp` and `/content`
+- Automatic updates are enabled for production, adding more security.
+- Error display and logging are setup. On production errors will be logged, on test the will be shown.
+
