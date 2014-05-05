@@ -1,4 +1,3 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -8,3 +7,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
+
+# Security
+RedirectMatch 403 /content/debug.log
+RedirectMatch 403 /\.git
+RedirectMatch 403 /\wp\/readme.html
+RedirectMatch 403 /\wp\/license.txt
