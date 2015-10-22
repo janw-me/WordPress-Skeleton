@@ -59,6 +59,8 @@ define( 'DISALLOW_FILE_EDIT', true ); // don't allow to edit files in the wp-adm
 define( 'WP_SITEURL', WP_HOME . '/wp' );
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', WP_HOME . '/content' );
+define( 'PLUGINDIR', 'content/plugins' ); // Relative to ABSPATH. For back compat.
+define( 'MUPLUGINDIR', 'content/mu-plugins' ); // Relative to ABSPATH. For back compat.
 
 // Debug
 define( 'WP_DEBUG', true );
