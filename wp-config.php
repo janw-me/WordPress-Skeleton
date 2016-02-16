@@ -33,9 +33,6 @@ define( 'SECURE_AUTH_SALT', '%%' );
 define( 'LOGGED_IN_SALT', '%%' );
 define( 'NONCE_SALT', '%%' );
 
-// Default Language
-define( 'WPLANG', 'nl_NL' ); // leave empty for English
-
 // Multisite
 define( 'WP_ALLOW_MULTISITE', false );
 /* // Unquote for multisites
