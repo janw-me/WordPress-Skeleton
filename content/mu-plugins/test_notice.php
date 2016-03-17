@@ -7,7 +7,7 @@
  * License: GPL2
  */
 
-if (defined('WP_DEVELOPMENT') || WP_DEVELOPMENT === true){
+if (defined('WP_DEVELOPMENT') && WP_DEVELOPMENT === true){
   add_action( 'init', 'test_enviroment_adminbar_notice_init' );
 }
 
