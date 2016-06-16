@@ -23,6 +23,7 @@ define( 'WP_HOME', 'http://example.com' ); // No trainling slash
 //define('DOMAIN_CURRENT_SITE', 'example.com'); // no `http://` 
 
 // show errors
+define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_DISPLAY', true );
 
 // This is development, don't change
