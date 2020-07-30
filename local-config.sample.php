@@ -26,5 +26,5 @@ define( 'WP_HOME', 'http://example.com' ); // No trainling slash
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_DISPLAY', true );
 
-// This is development, don't change
-define( 'WP_DEVELOPMENT', true );
+// Valid values: development, staging and production.  To get this value use: wp_get_environment_type()
+defined( 'WP_ENVIRONMENT_TYPE' ) or define( 'WP_ENVIRONMENT_TYPE', 'development' );
