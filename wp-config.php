@@ -52,7 +52,7 @@ defined( 'AUTOSAVE_INTERVAL' )             or define( 'AUTOSAVE_INTERVAL', 300 )
 defined( 'WP_POST_REVISIONS' )             or define( 'WP_POST_REVISIONS', 10 ); // 10 post revisions
 defined( 'DISALLOW_FILE_EDIT' )            or define( 'DISALLOW_FILE_EDIT', true ); // don't allow to edit files in the wp-admin
 defined( 'DISABLE_WP_CRON' )               or define( 'DISABLE_WP_CRON', true );  // disable the cron executed by visiting webpages
-defined( 'CORE_UPGRADE_SKIP_NEW_BUNDLED' ) or define('CORE_UPGRADE_SKIP_NEW_BUNDLED', true); // don't install default themes/plugins on update
+defined( 'CORE_UPGRADE_SKIP_NEW_BUNDLED' ) or define( 'CORE_UPGRADE_SKIP_NEW_BUNDLED', true ); // don't install default themes/plugins on update
 
 // URL and dirs
 defined( 'WP_SITEURL' )     or define( 'WP_SITEURL', WP_HOME . '/wp' );
@@ -64,11 +64,15 @@ defined( 'MUPLUGINDIR' )    or define( 'MUPLUGINDIR', 'content/mu-plugins' ); //
 // Debug turned off on production
 defined( 'WP_DEBUG' ) or define( 'WP_DEBUG', false );
 
-// log errors when it's not a development server
-if ( ( defined( 'WP_ENVIRONMENT_TYPE' ) && WP_ENVIRONMENT_TYPE === 'development' ) || WP_DEBUG_DISPLAY === false ) {
+// Debug settings
+if ( ( defined( 'WP_ENVIRONMENT_TYPE' ) && WP_ENVIRONMENT_TYPE === 'development' ) ) {
+	defined( 'WP_DEBUG_DISPLAY' ) or define( 'WP_DEBUG_DISPLAY', true );
+	defined( 'WP_DEBUG' )         or define( 'WP_DEBUG', true );
+} else {
+	// log errors when it's not a development server
 	defined( 'WP_DEBUG_LOG' )     or define( 'WP_DEBUG_LOG', WP_CONTENT_DIR . '/debug.log' );
 	defined( 'WP_DEBUG_DISPLAY' ) or define( 'WP_DEBUG_DISPLAY', false );
-	define( 'WP_DEVELOPMENT', true ); // deprecated, use wp_get_environment_type() instead
+	defined( 'WP_DEBUG' )         or define( 'WP_DEBUG', false );
 }
 
 // DB
